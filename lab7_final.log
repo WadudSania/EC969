@@ -1,0 +1,285 @@
+[[1]]
+ [1] "lubridate" "forcats"   "stringr"   "dplyr"     "purrr"    
+ [6] "readr"     "tidyr"     "tibble"    "ggplot2"   "tidyverse"
+[11] "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[16] "methods"   "base"     
+
+[[2]]
+ [1] "naniar"    "lubridate" "forcats"   "stringr"   "dplyr"    
+ [6] "purrr"     "readr"     "tidyr"     "tibble"    "ggplot2"  
+[11] "tidyverse" "stats"     "graphics"  "grDevices" "utils"    
+[16] "datasets"  "methods"   "base"     
+
+[[3]]
+ [1] "haven"     "naniar"    "lubridate" "forcats"   "stringr"  
+ [6] "dplyr"     "purrr"     "readr"     "tidyr"     "tibble"   
+[11] "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices"
+[16] "utils"     "datasets"  "methods"   "base"     
+
+[[4]]
+ [1] "survey"    "survival"  "Matrix"    "grid"      "haven"    
+ [6] "naniar"    "lubridate" "forcats"   "stringr"   "dplyr"    
+[11] "purrr"     "readr"     "tidyr"     "tibble"    "ggplot2"  
+[16] "tidyverse" "stats"     "graphics"  "grDevices" "utils"    
+[21] "datasets"  "methods"   "base"     
+
+[[5]]
+ [1] "labelled"  "survey"    "survival"  "Matrix"    "grid"     
+ [6] "haven"     "naniar"    "lubridate" "forcats"   "stringr"  
+[11] "dplyr"     "purrr"     "readr"     "tidyr"     "tibble"   
+[16] "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices"
+[21] "utils"     "datasets"  "methods"   "base"     
+
+[[6]]
+ [1] "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"   
+ [6] "survival"  "Matrix"    "grid"      "haven"     "naniar"   
+[11] "lubridate" "forcats"   "stringr"   "dplyr"     "purrr"    
+[16] "readr"     "tidyr"     "tibble"    "ggplot2"   "tidyverse"
+[21] "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[26] "methods"   "base"     
+
+[[7]]
+ [1] "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"  
+ [6] "labelled"  "survey"    "survival"  "Matrix"    "grid"     
+[11] "haven"     "naniar"    "lubridate" "forcats"   "stringr"  
+[16] "dplyr"     "purrr"     "readr"     "tidyr"     "tibble"   
+[21] "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices"
+[26] "utils"     "datasets"  "methods"   "base"     
+
+[[8]]
+ [1] "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"  
+ [6] "labelled"  "survey"    "survival"  "Matrix"    "grid"     
+[11] "haven"     "naniar"    "lubridate" "forcats"   "stringr"  
+[16] "dplyr"     "purrr"     "readr"     "tidyr"     "tibble"   
+[21] "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices"
+[26] "utils"     "datasets"  "methods"   "base"     
+
+[[9]]
+ [1] "AER"       "sandwich"  "lmtest"    "zoo"       "car"      
+ [6] "carData"   "expss"     "maditr"    "Rmisc"     "plyr"     
+[11] "lattice"   "labelled"  "survey"    "survival"  "Matrix"   
+[16] "grid"      "haven"     "naniar"    "lubridate" "forcats"  
+[21] "stringr"   "dplyr"     "purrr"     "readr"     "tidyr"    
+[26] "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics" 
+[31] "grDevices" "utils"     "datasets"  "methods"   "base"     
+
+[[10]]
+ [1] "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"      
+ [6] "car"       "carData"   "expss"     "maditr"    "Rmisc"    
+[11] "plyr"      "lattice"   "labelled"  "survey"    "survival" 
+[16] "Matrix"    "grid"      "haven"     "naniar"    "lubridate"
+[21] "forcats"   "stringr"   "dplyr"     "purrr"     "readr"    
+[26] "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"    
+[31] "graphics"  "grDevices" "utils"     "datasets"  "methods"  
+[36] "base"     
+
+[[11]]
+ [1] "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"   
+ [6] "zoo"       "car"       "carData"   "expss"     "maditr"   
+[11] "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"   
+[16] "survival"  "Matrix"    "grid"      "haven"     "naniar"   
+[21] "lubridate" "forcats"   "stringr"   "dplyr"     "purrr"    
+[26] "readr"     "tidyr"     "tibble"    "ggplot2"   "tidyverse"
+[31] "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[36] "methods"   "base"     
+
+[[12]]
+ [1] "ggeffects" "margins"   "estimatr"  "AER"       "sandwich" 
+ [6] "lmtest"    "zoo"       "car"       "carData"   "expss"    
+[11] "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled" 
+[16] "survey"    "survival"  "Matrix"    "grid"      "haven"    
+[21] "naniar"    "lubridate" "forcats"   "stringr"   "dplyr"    
+[26] "purrr"     "readr"     "tidyr"     "tibble"    "ggplot2"  
+[31] "tidyverse" "stats"     "graphics"  "grDevices" "utils"    
+[36] "datasets"  "methods"   "base"     
+
+[[13]]
+ [1] "ivreg"     "ggeffects" "margins"   "estimatr"  "AER"      
+ [6] "sandwich"  "lmtest"    "zoo"       "car"       "carData"  
+[11] "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"  
+[16] "labelled"  "survey"    "survival"  "Matrix"    "grid"     
+[21] "haven"     "naniar"    "lubridate" "forcats"   "stringr"  
+[26] "dplyr"     "purrr"     "readr"     "tidyr"     "tibble"   
+[31] "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices"
+[36] "utils"     "datasets"  "methods"   "base"     
+
+[[14]]
+ [1] "plm"       "ivreg"     "ggeffects" "margins"   "estimatr" 
+ [6] "AER"       "sandwich"  "lmtest"    "zoo"       "car"      
+[11] "carData"   "expss"     "maditr"    "Rmisc"     "plyr"     
+[16] "lattice"   "labelled"  "survey"    "survival"  "Matrix"   
+[21] "grid"      "haven"     "naniar"    "lubridate" "forcats"  
+[26] "stringr"   "dplyr"     "purrr"     "readr"     "tidyr"    
+[31] "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics" 
+[36] "grDevices" "utils"     "datasets"  "methods"   "base"     
+
+[[15]]
+ [1] "fastDummies" "plm"         "ivreg"       "ggeffects"  
+ [5] "margins"     "estimatr"    "AER"         "sandwich"   
+ [9] "lmtest"      "zoo"         "car"         "carData"    
+[13] "expss"       "maditr"      "Rmisc"       "plyr"       
+[17] "lattice"     "labelled"    "survey"      "survival"   
+[21] "Matrix"      "grid"        "haven"       "naniar"     
+[25] "lubridate"   "forcats"     "stringr"     "dplyr"      
+[29] "purrr"       "readr"       "tidyr"       "tibble"     
+[33] "ggplot2"     "tidyverse"   "stats"       "graphics"   
+[37] "grDevices"   "utils"       "datasets"    "methods"    
+[41] "base"       
+
+[[16]]
+ [1] "pglm"        "maxLik"      "miscTools"   "fastDummies"
+ [5] "plm"         "ivreg"       "ggeffects"   "margins"    
+ [9] "estimatr"    "AER"         "sandwich"    "lmtest"     
+[13] "zoo"         "car"         "carData"     "expss"      
+[17] "maditr"      "Rmisc"       "plyr"        "lattice"    
+[21] "labelled"    "survey"      "survival"    "Matrix"     
+[25] "grid"        "haven"       "naniar"      "lubridate"  
+[29] "forcats"     "stringr"     "dplyr"       "purrr"      
+[33] "readr"       "tidyr"       "tibble"      "ggplot2"    
+[37] "tidyverse"   "stats"       "graphics"    "grDevices"  
+[41] "utils"       "datasets"    "methods"     "base"       
+
+[[17]]
+ [1] "multiwayvcov" "pglm"         "maxLik"       "miscTools"   
+ [5] "fastDummies"  "plm"          "ivreg"        "ggeffects"   
+ [9] "margins"      "estimatr"     "AER"          "sandwich"    
+[13] "lmtest"       "zoo"          "car"          "carData"     
+[17] "expss"        "maditr"       "Rmisc"        "plyr"        
+[21] "lattice"      "labelled"     "survey"       "survival"    
+[25] "Matrix"       "grid"         "haven"        "naniar"      
+[29] "lubridate"    "forcats"      "stringr"      "dplyr"       
+[33] "purrr"        "readr"        "tidyr"        "tibble"      
+[37] "ggplot2"      "tidyverse"    "stats"        "graphics"    
+[41] "grDevices"    "utils"        "datasets"     "methods"     
+[45] "base"        
+
+[[18]]
+ [1] "data.table"   "multiwayvcov" "pglm"         "maxLik"      
+ [5] "miscTools"    "fastDummies"  "plm"          "ivreg"       
+ [9] "ggeffects"    "margins"      "estimatr"     "AER"         
+[13] "sandwich"     "lmtest"       "zoo"          "car"         
+[17] "carData"      "expss"        "maditr"       "Rmisc"       
+[21] "plyr"         "lattice"      "labelled"     "survey"      
+[25] "survival"     "Matrix"       "grid"         "haven"       
+[29] "naniar"       "lubridate"    "forcats"      "stringr"     
+[33] "dplyr"        "purrr"        "readr"        "tidyr"       
+[37] "tibble"       "ggplot2"      "tidyverse"    "stats"       
+[41] "graphics"     "grDevices"    "utils"        "datasets"    
+[45] "methods"      "base"        
+
+[[19]]
+ [1] "stargazer"    "data.table"   "multiwayvcov" "pglm"        
+ [5] "maxLik"       "miscTools"    "fastDummies"  "plm"         
+ [9] "ivreg"        "ggeffects"    "margins"      "estimatr"    
+[13] "AER"          "sandwich"     "lmtest"       "zoo"         
+[17] "car"          "carData"      "expss"        "maditr"      
+[21] "Rmisc"        "plyr"         "lattice"      "labelled"    
+[25] "survey"       "survival"     "Matrix"       "grid"        
+[29] "haven"        "naniar"       "lubridate"    "forcats"     
+[33] "stringr"      "dplyr"        "purrr"        "readr"       
+[37] "tidyr"        "tibble"       "ggplot2"      "tidyverse"   
+[41] "stats"        "graphics"     "grDevices"    "utils"       
+[45] "datasets"     "methods"      "base"        
+
+[[20]]
+ [1] "htmltools"    "stargazer"    "data.table"   "multiwayvcov"
+ [5] "pglm"         "maxLik"       "miscTools"    "fastDummies" 
+ [9] "plm"          "ivreg"        "ggeffects"    "margins"     
+[13] "estimatr"     "AER"          "sandwich"     "lmtest"      
+[17] "zoo"          "car"          "carData"      "expss"       
+[21] "maditr"       "Rmisc"        "plyr"         "lattice"     
+[25] "labelled"     "survey"       "survival"     "Matrix"      
+[29] "grid"         "haven"        "naniar"       "lubridate"   
+[33] "forcats"      "stringr"      "dplyr"        "purrr"       
+[37] "readr"        "tidyr"        "tibble"       "ggplot2"     
+[41] "tidyverse"    "stats"        "graphics"     "grDevices"   
+[45] "utils"        "datasets"     "methods"      "base"        
+
+
+    1     2     3     4     5     6     7     8     9    10 
+ 6358 28326  2406  1983    16   409   979  2151   114   141 
+
+  Employed Unemployed 
+     28326       2406 
+
+    0     1 
+32586  1917 
+
+   0    1    2    3    4    5    6    7    8    9   10   11   12 
+5851 4111 3074 2433 1865 1510 1185  965  820  662  701  497  480 
+  13   14   15   16   17   18   19   20   21   22   23   24   25 
+ 410  389  368  279  274  257  223  237  165  156  127  120  106 
+  26   27   28   29   30   31   32   33   34   35   36   37   38 
+  82   78   64   56   60   44   33   29   25   23   17   15   11 
+  39   40   41   42   43   44   46   47   48   50   51 
+   8    9    6    8    8    4    1    1    1    3    1 
+   .id     N JobTenure       sd        se         ci
+1 <NA> 27852  5.376418 6.729672 0.0403242 0.07903741
+[1] TRUE
+              df$UEStatus
+df$LagUEStatus Employed Unemployed
+             0    22470        523
+             1      559        864
+              df$UEStatus
+df$LagUEStatus Employed Unemployed
+             0    20004        440
+             1      429        719
+
+Call:
+glm(formula = UEStatus ~ LagUEStatus + age + married + Q1 + Q2 + 
+    Q3 + Q4 + Q5 + R + Y + claimant_count_pc, family = binomial(link = "probit"), 
+    data = df)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1.9277  -0.2387  -0.1794  -0.1374   3.3265  
+
+Coefficients:
+                    Estimate Std. Error z value Pr(>|z|)    
+(Intercept)       -1.5932787  0.4798472  -3.320 0.000899 ***
+LagUEStatus        2.2039725  0.0455493  48.386  < 2e-16 ***
+age                0.0007405  0.0019104   0.388 0.698294    
+married1          -0.2760722  0.0412310  -6.696 2.15e-11 ***
+Q1                -0.5497081  0.0685207  -8.023 1.04e-15 ***
+Q2                -0.5524423  0.0906814  -6.092 1.11e-09 ***
+Q3                -0.3737346  0.0546582  -6.838 8.05e-12 ***
+Q4                -0.2797874  0.0514841  -5.434 5.50e-08 ***
+Q5                -0.2168536  0.0760977  -2.850 0.004376 ** 
+R2                 0.0464611  0.1096315   0.424 0.671716    
+R3                -0.0239099  0.1116272  -0.214 0.830395    
+R4                 0.0536313  0.1335099   0.402 0.687903    
+R5                -0.1214759  0.1131212  -1.074 0.282887    
+R6                -0.1549477  0.1582732  -0.979 0.327585    
+R7                -0.0111826  0.0993279  -0.113 0.910361    
+R8                -0.0101477  0.1658749  -0.061 0.951219    
+R9                -0.1465410  0.1484883  -0.987 0.323699    
+R10               -0.0169014  0.1306749  -0.129 0.897089    
+R11               -0.1011294  0.1223355  -0.827 0.408432    
+Y1994             -0.0402405  0.0844367  -0.477 0.633664    
+Y1995             -0.1444179  0.1124291  -1.285 0.198959    
+Y1996             -0.0558652  0.1387761  -0.403 0.687275    
+Y1997             -0.2217716  0.2093769  -1.059 0.289510    
+Y1998             -0.2576711  0.2320766  -1.110 0.266876    
+Y1999             -0.2347341  0.2486120  -0.944 0.345078    
+Y2000             -0.2390274  0.2691800  -0.888 0.374550    
+Y2001             -0.1355097  0.2820990  -0.480 0.630970    
+Y2002             -0.0348824  0.2840192  -0.123 0.902252    
+Y2003             -0.1205320  0.2895930  -0.416 0.677255    
+Y2004             -0.2213745  0.3058301  -0.724 0.469159    
+Y2005             -0.0671283  0.2966617  -0.226 0.820984    
+Y2006             -0.0888571  0.2891439  -0.307 0.758607    
+Y2007             -0.1180943  0.3055499  -0.386 0.699128    
+Y2008             -0.0881619  0.2851986  -0.309 0.757227    
+claimant_count_pc  0.0413688  0.0518082   0.798 0.424581    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 8789.4  on 20830  degrees of freedom
+Residual deviance: 5286.8  on 20796  degrees of freedom
+  (8380 observations deleted due to missingness)
+AIC: 5356.8
+
+Number of Fisher Scoring iterations: 7
+

@@ -1,0 +1,480 @@
+package ‘tidyverse’ successfully unpacked and MD5 sums checked
+package ‘naniar’ successfully unpacked and MD5 sums checked
+package ‘haven’ successfully unpacked and MD5 sums checked
+package ‘survey’ successfully unpacked and MD5 sums checked
+package ‘labelled’ successfully unpacked and MD5 sums checked
+package ‘Rmisc’ successfully unpacked and MD5 sums checked
+package ‘expss’ successfully unpacked and MD5 sums checked
+package ‘ggplot2’ successfully unpacked and MD5 sums checked
+package ‘AER’ successfully unpacked and MD5 sums checked
+package ‘estimatr’ successfully unpacked and MD5 sums checked
+package ‘margins’ successfully unpacked and MD5 sums checked
+package ‘ggeffects’ successfully unpacked and MD5 sums checked
+package ‘plm’ successfully unpacked and MD5 sums checked
+package ‘ivreg’ successfully unpacked and MD5 sums checked
+package ‘fastDummies’ successfully unpacked and MD5 sums checked
+package ‘stargazer’ successfully unpacked and MD5 sums checked
+package ‘multiwayvcov’ successfully unpacked and MD5 sums checked
+package ‘htmltools’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\sw22905\AppData\Local\Temp\Rtmp0QnqjV\downloaded_packages
+[[1]]
+ [1] "forcats"   "stringr"   "dplyr"     "purrr"     "readr"    
+ [6] "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"    
+[11] "graphics"  "grDevices" "utils"     "datasets"  "methods"  
+[16] "base"     
+
+[[2]]
+ [1] "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"    
+ [6] "readr"     "tidyr"     "tibble"    "ggplot2"   "tidyverse"
+[11] "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[16] "methods"   "base"     
+
+[[3]]
+ [1] "haven"     "naniar"    "forcats"   "stringr"   "dplyr"    
+ [6] "purrr"     "readr"     "tidyr"     "tibble"    "ggplot2"  
+[11] "tidyverse" "stats"     "graphics"  "grDevices" "utils"    
+[16] "datasets"  "methods"   "base"     
+
+[[4]]
+ [1] "survey"    "survival"  "Matrix"    "grid"      "haven"    
+ [6] "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"    
+[11] "readr"     "tidyr"     "tibble"    "ggplot2"   "tidyverse"
+[16] "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[21] "methods"   "base"     
+
+[[5]]
+ [1] "labelled"  "survey"    "survival"  "Matrix"    "grid"     
+ [6] "haven"     "naniar"    "forcats"   "stringr"   "dplyr"    
+[11] "purrr"     "readr"     "tidyr"     "tibble"    "ggplot2"  
+[16] "tidyverse" "stats"     "graphics"  "grDevices" "utils"    
+[21] "datasets"  "methods"   "base"     
+
+[[6]]
+ [1] "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"   
+ [6] "survival"  "Matrix"    "grid"      "haven"     "naniar"   
+[11] "forcats"   "stringr"   "dplyr"     "purrr"     "readr"    
+[16] "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"    
+[21] "graphics"  "grDevices" "utils"     "datasets"  "methods"  
+[26] "base"     
+
+[[7]]
+ [1] "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"  
+ [6] "labelled"  "survey"    "survival"  "Matrix"    "grid"     
+[11] "haven"     "naniar"    "forcats"   "stringr"   "dplyr"    
+[16] "purrr"     "readr"     "tidyr"     "tibble"    "ggplot2"  
+[21] "tidyverse" "stats"     "graphics"  "grDevices" "utils"    
+[26] "datasets"  "methods"   "base"     
+
+[[8]]
+ [1] "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"  
+ [6] "labelled"  "survey"    "survival"  "Matrix"    "grid"     
+[11] "haven"     "naniar"    "forcats"   "stringr"   "dplyr"    
+[16] "purrr"     "readr"     "tidyr"     "tibble"    "ggplot2"  
+[21] "tidyverse" "stats"     "graphics"  "grDevices" "utils"    
+[26] "datasets"  "methods"   "base"     
+
+[[9]]
+ [1] "AER"       "sandwich"  "lmtest"    "zoo"       "car"      
+ [6] "carData"   "expss"     "maditr"    "Rmisc"     "plyr"     
+[11] "lattice"   "labelled"  "survey"    "survival"  "Matrix"   
+[16] "grid"      "haven"     "naniar"    "forcats"   "stringr"  
+[21] "dplyr"     "purrr"     "readr"     "tidyr"     "tibble"   
+[26] "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices"
+[31] "utils"     "datasets"  "methods"   "base"     
+
+[[10]]
+ [1] "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"      
+ [6] "car"       "carData"   "expss"     "maditr"    "Rmisc"    
+[11] "plyr"      "lattice"   "labelled"  "survey"    "survival" 
+[16] "Matrix"    "grid"      "haven"     "naniar"    "forcats"  
+[21] "stringr"   "dplyr"     "purrr"     "readr"     "tidyr"    
+[26] "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics" 
+[31] "grDevices" "utils"     "datasets"  "methods"   "base"     
+
+[[11]]
+ [1] "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"   
+ [6] "zoo"       "car"       "carData"   "expss"     "maditr"   
+[11] "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"   
+[16] "survival"  "Matrix"    "grid"      "haven"     "naniar"   
+[21] "forcats"   "stringr"   "dplyr"     "purrr"     "readr"    
+[26] "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"    
+[31] "graphics"  "grDevices" "utils"     "datasets"  "methods"  
+[36] "base"     
+
+[[12]]
+ [1] "ggeffects" "margins"   "estimatr"  "AER"       "sandwich" 
+ [6] "lmtest"    "zoo"       "car"       "carData"   "expss"    
+[11] "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled" 
+[16] "survey"    "survival"  "Matrix"    "grid"      "haven"    
+[21] "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"    
+[26] "readr"     "tidyr"     "tibble"    "ggplot2"   "tidyverse"
+[31] "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[36] "methods"   "base"     
+
+[[13]]
+ [1] "ivreg"     "ggeffects" "margins"   "estimatr"  "AER"      
+ [6] "sandwich"  "lmtest"    "zoo"       "car"       "carData"  
+[11] "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"  
+[16] "labelled"  "survey"    "survival"  "Matrix"    "grid"     
+[21] "haven"     "naniar"    "forcats"   "stringr"   "dplyr"    
+[26] "purrr"     "readr"     "tidyr"     "tibble"    "ggplot2"  
+[31] "tidyverse" "stats"     "graphics"  "grDevices" "utils"    
+[36] "datasets"  "methods"   "base"     
+
+[[14]]
+ [1] "plm"       "ivreg"     "ggeffects" "margins"   "estimatr" 
+ [6] "AER"       "sandwich"  "lmtest"    "zoo"       "car"      
+[11] "carData"   "expss"     "maditr"    "Rmisc"     "plyr"     
+[16] "lattice"   "labelled"  "survey"    "survival"  "Matrix"   
+[21] "grid"      "haven"     "naniar"    "forcats"   "stringr"  
+[26] "dplyr"     "purrr"     "readr"     "tidyr"     "tibble"   
+[31] "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices"
+[36] "utils"     "datasets"  "methods"   "base"     
+
+[[15]]
+ [1] "fastDummies" "plm"         "ivreg"       "ggeffects"  
+ [5] "margins"     "estimatr"    "AER"         "sandwich"   
+ [9] "lmtest"      "zoo"         "car"         "carData"    
+[13] "expss"       "maditr"      "Rmisc"       "plyr"       
+[17] "lattice"     "labelled"    "survey"      "survival"   
+[21] "Matrix"      "grid"        "haven"       "naniar"     
+[25] "forcats"     "stringr"     "dplyr"       "purrr"      
+[29] "readr"       "tidyr"       "tibble"      "ggplot2"    
+[33] "tidyverse"   "stats"       "graphics"    "grDevices"  
+[37] "utils"       "datasets"    "methods"     "base"       
+
+[[16]]
+ [1] "stargazer"   "fastDummies" "plm"         "ivreg"      
+ [5] "ggeffects"   "margins"     "estimatr"    "AER"        
+ [9] "sandwich"    "lmtest"      "zoo"         "car"        
+[13] "carData"     "expss"       "maditr"      "Rmisc"      
+[17] "plyr"        "lattice"     "labelled"    "survey"     
+[21] "survival"    "Matrix"      "grid"        "haven"      
+[25] "naniar"      "forcats"     "stringr"     "dplyr"      
+[29] "purrr"       "readr"       "tidyr"       "tibble"     
+[33] "ggplot2"     "tidyverse"   "stats"       "graphics"   
+[37] "grDevices"   "utils"       "datasets"    "methods"    
+[41] "base"       
+
+[[17]]
+ [1] "multiwayvcov" "stargazer"    "fastDummies"  "plm"         
+ [5] "ivreg"        "ggeffects"    "margins"      "estimatr"    
+ [9] "AER"          "sandwich"     "lmtest"       "zoo"         
+[13] "car"          "carData"      "expss"        "maditr"      
+[17] "Rmisc"        "plyr"         "lattice"      "labelled"    
+[21] "survey"       "survival"     "Matrix"       "grid"        
+[25] "haven"        "naniar"       "forcats"      "stringr"     
+[29] "dplyr"        "purrr"        "readr"        "tidyr"       
+[33] "tibble"       "ggplot2"      "tidyverse"    "stats"       
+[37] "graphics"     "grDevices"    "utils"        "datasets"    
+[41] "methods"      "base"        
+
+[[18]]
+ [1] "htmltools"    "multiwayvcov" "stargazer"    "fastDummies" 
+ [5] "plm"          "ivreg"        "ggeffects"    "margins"     
+ [9] "estimatr"     "AER"          "sandwich"     "lmtest"      
+[13] "zoo"          "car"          "carData"      "expss"       
+[17] "maditr"       "Rmisc"        "plyr"         "lattice"     
+[21] "labelled"     "survey"       "survival"     "Matrix"      
+[25] "grid"         "haven"        "naniar"       "forcats"     
+[29] "stringr"      "dplyr"        "purrr"        "readr"       
+[33] "tidyr"        "tibble"       "ggplot2"      "tidyverse"   
+[37] "stats"        "graphics"     "grDevices"    "utils"       
+[41] "datasets"     "methods"      "base"        
+
+
+   1    2    3    4    5    6    7    8    9   10   11   12   13 
+1888 5266 3956 3836 3843 3887 3864 6250 4135 6890 8730 4300    1 
+
+1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 
+2432 2349 2262 2258 2250 2330 2762 2744 3766 3849 4521 4033 3980 
+2004 2005 2006 2007 2008 
+3866 3758 3513 3360 3176 
+
+   1    2    3    4    5    6    7    8    9 
+9451 5279 5606 4932 9927 3592 2470 7597 3858 
+
+    0     1     2     3     4     5     6     7     8     9    10 
+12692  8355  6005  4601  3380  2718  2070  1666  1400  1115  1207 
+   11    12    13    14    15    16    17    18    19    20    21 
+  890   827   698   653   627   499   468   407   357   377   272 
+   22    23    24    25    26    27    28    29    30    31    32 
+  260   219   200   201   156   151   124    94   108    78    69 
+   33    34    35    36    37    38    39    40    41    42    43 
+   52    45    35    26    29    18    15    14     9    10    12 
+   44    45    46    47    48    50    51 
+    5     2     2     4     3     3     1 
+    
+        2
+  -9   41
+  -1   46
+  1  4366
+  2  7301
+  3  2191
+  4    82
+  5     1
+  6    92
+  7   914
+  8   124
+  9    99
+  10  371
+
+  -9   -1    1    2    3    4    5    6    7    8    9   10 
+  41   46 4366 7301 2191   82    1   92  914  124   99  371 
+
+    0     1 
+55018  2191 
+
+Call:
+lm(formula = LnW ~ UtoJob + age + married + JobTenure + PartTime + 
+    Q1 + Q2 + Q3 + Q4 + Q5 + R + Y + SOC + claimant_count_pc, 
+    data = df)
+
+Residuals:
+LABEL: Ln wage 
+VALUES:
+-4.2328, -0.2456, -0.0033, 0.2461, 3.2709
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)    
+(Intercept)        6.6969488  0.0599854 111.643  < 2e-16 ***
+UtoJob            -0.2249682  0.0102890 -21.865  < 2e-16 ***
+age                0.0076217  0.0002096  36.369  < 2e-16 ***
+married            0.2226691  0.0048732  45.693  < 2e-16 ***
+JobTenure          0.0037012  0.0003488  10.611  < 2e-16 ***
+PartTime          -0.7942448  0.0098798 -80.390  < 2e-16 ***
+Q1                 0.4611877  0.0080738  57.121  < 2e-16 ***
+Q2                 0.3427452  0.0088253  38.836  < 2e-16 ***
+Q3                 0.2398333  0.0068047  35.245  < 2e-16 ***
+Q4                 0.1869436  0.0065687  28.460  < 2e-16 ***
+Q5                 0.1447867  0.0094791  15.274  < 2e-16 ***
+R2                 0.0540186  0.0136509   3.957 7.60e-05 ***
+R3                -0.0046249  0.0138308  -0.334 0.738083    
+R4                -0.0009716  0.0163018  -0.060 0.952472    
+R5                 0.0186299  0.0137380   1.356 0.175078    
+R6                 0.1026842  0.0184394   5.569 2.58e-08 ***
+R7                 0.2141081  0.0128602  16.649  < 2e-16 ***
+R8                 0.1338309  0.0196824   6.800 1.06e-11 ***
+R9                 0.0554828  0.0178897   3.101 0.001927 ** 
+R10               -0.0227169  0.0140204  -1.620 0.105179    
+R11                0.0248110  0.0127056   1.953 0.050854 .  
+R12               -0.5390295  0.4241472  -1.271 0.203787    
+Y1993             -0.0093403  0.0131335  -0.711 0.476975    
+Y1994              0.0161715  0.0146134   1.107 0.268465    
+Y1995              0.0315374  0.0170189   1.853 0.063877 .  
+Y1996              0.0573512  0.0198593   2.888 0.003880 ** 
+Y1997              0.0597158  0.0274056   2.179 0.029339 *  
+Y1998              0.1062483  0.0296488   3.584 0.000339 ***
+Y1999              0.1495215  0.0309860   4.825 1.40e-06 ***
+Y2000              0.1884518  0.0334494   5.634 1.77e-08 ***
+Y2001              0.2244754  0.0348500   6.441 1.20e-10 ***
+Y2002              0.2566270  0.0354647   7.236 4.69e-13 ***
+Y2003              0.2936889  0.0359330   8.173 3.08e-16 ***
+Y2004              0.3184968  0.0375974   8.471  < 2e-16 ***
+Y2005              0.3396923  0.0369456   9.194  < 2e-16 ***
+Y2006              0.3550664  0.0362367   9.799  < 2e-16 ***
+Y2007              0.4044243  0.0381599  10.598  < 2e-16 ***
+Y2008              0.4303080  0.0353320  12.179  < 2e-16 ***
+SOC2              -0.0966697  0.0081358 -11.882  < 2e-16 ***
+SOC3              -0.1936405  0.0076652 -25.262  < 2e-16 ***
+SOC4              -0.4712417  0.0080771 -58.343  < 2e-16 ***
+SOC5              -0.3350546  0.0069184 -48.429  < 2e-16 ***
+SOC6              -0.3904592  0.0091494 -42.676  < 2e-16 ***
+SOC7              -0.4292887  0.0104523 -41.071  < 2e-16 ***
+SOC8              -0.3299734  0.0074007 -44.587  < 2e-16 ***
+SOC9              -0.4805877  0.0091052 -52.782  < 2e-16 ***
+claimant_count_pc -0.0055787  0.0064844  -0.860 0.389609    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4238 on 45794 degrees of freedom
+  (11368 observations deleted due to missingness)
+Multiple R-squared:  0.4798,	Adjusted R-squared:  0.4792 
+F-statistic: 918.1 on 46 and 45794 DF,  p-value: < 2.2e-16
+
+[1] 45841
+
+Call:
+lm(formula = LnW ~ UtoJob + age + married + JobTenure + PartTime + 
+    Q1 + Q2 + Q3 + Q4 + Q5 + R + Y + SOC + claimant_count_pc, 
+    data = df)
+
+Residuals:
+LABEL: Ln wage 
+VALUES:
+-4.2328, -0.2456, -0.0033, 0.2461, 3.2709
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)    
+(Intercept)        6.6969488  0.0599854 111.643  < 2e-16 ***
+UtoJob            -0.2249682  0.0102890 -21.865  < 2e-16 ***
+age                0.0076217  0.0002096  36.369  < 2e-16 ***
+married            0.2226691  0.0048732  45.693  < 2e-16 ***
+JobTenure          0.0037012  0.0003488  10.611  < 2e-16 ***
+PartTime          -0.7942448  0.0098798 -80.390  < 2e-16 ***
+Q1                 0.4611877  0.0080738  57.121  < 2e-16 ***
+Q2                 0.3427452  0.0088253  38.836  < 2e-16 ***
+Q3                 0.2398333  0.0068047  35.245  < 2e-16 ***
+Q4                 0.1869436  0.0065687  28.460  < 2e-16 ***
+Q5                 0.1447867  0.0094791  15.274  < 2e-16 ***
+R2                 0.0540186  0.0136509   3.957 7.60e-05 ***
+R3                -0.0046249  0.0138308  -0.334 0.738083    
+R4                -0.0009716  0.0163018  -0.060 0.952472    
+R5                 0.0186299  0.0137380   1.356 0.175078    
+R6                 0.1026842  0.0184394   5.569 2.58e-08 ***
+R7                 0.2141081  0.0128602  16.649  < 2e-16 ***
+R8                 0.1338309  0.0196824   6.800 1.06e-11 ***
+R9                 0.0554828  0.0178897   3.101 0.001927 ** 
+R10               -0.0227169  0.0140204  -1.620 0.105179    
+R11                0.0248110  0.0127056   1.953 0.050854 .  
+R12               -0.5390295  0.4241472  -1.271 0.203787    
+Y1993             -0.0093403  0.0131335  -0.711 0.476975    
+Y1994              0.0161715  0.0146134   1.107 0.268465    
+Y1995              0.0315374  0.0170189   1.853 0.063877 .  
+Y1996              0.0573512  0.0198593   2.888 0.003880 ** 
+Y1997              0.0597158  0.0274056   2.179 0.029339 *  
+Y1998              0.1062483  0.0296488   3.584 0.000339 ***
+Y1999              0.1495215  0.0309860   4.825 1.40e-06 ***
+Y2000              0.1884518  0.0334494   5.634 1.77e-08 ***
+Y2001              0.2244754  0.0348500   6.441 1.20e-10 ***
+Y2002              0.2566270  0.0354647   7.236 4.69e-13 ***
+Y2003              0.2936889  0.0359330   8.173 3.08e-16 ***
+Y2004              0.3184968  0.0375974   8.471  < 2e-16 ***
+Y2005              0.3396923  0.0369456   9.194  < 2e-16 ***
+Y2006              0.3550664  0.0362367   9.799  < 2e-16 ***
+Y2007              0.4044243  0.0381599  10.598  < 2e-16 ***
+Y2008              0.4303080  0.0353320  12.179  < 2e-16 ***
+SOC2              -0.0966697  0.0081358 -11.882  < 2e-16 ***
+SOC3              -0.1936405  0.0076652 -25.262  < 2e-16 ***
+SOC4              -0.4712417  0.0080771 -58.343  < 2e-16 ***
+SOC5              -0.3350546  0.0069184 -48.429  < 2e-16 ***
+SOC6              -0.3904592  0.0091494 -42.676  < 2e-16 ***
+SOC7              -0.4292887  0.0104523 -41.071  < 2e-16 ***
+SOC8              -0.3299734  0.0074007 -44.587  < 2e-16 ***
+SOC9              -0.4805877  0.0091052 -52.782  < 2e-16 ***
+claimant_count_pc -0.0055787  0.0064844  -0.860 0.389609    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4238 on 45794 degrees of freedom
+  (11368 observations deleted due to missingness)
+Multiple R-squared:  0.4798,	Adjusted R-squared:  0.4792 
+F-statistic: 918.1 on 46 and 45794 DF,  p-value: < 2.2e-16
+
+  (Intercept)             UtoJob                age            
+ Min.   :-0.0042963   Min.   :-2.467e-05   Min.   :-7.649e-06  
+ 1st Qu.:-0.0026447   1st Qu.:-9.120e-06   1st Qu.:-3.472e-07  
+ Median :-0.0010793   Median :-5.831e-06   Median : 3.580e-08  
+ Mean   :-0.0013036   Mean   :-1.632e-06   Mean   :-8.476e-09  
+ 3rd Qu.:-0.0002027   3rd Qu.: 3.876e-07   3rd Qu.: 4.769e-07  
+ Max.   : 0.0079113   Max.   : 1.417e-04   Max.   : 2.493e-06  
+    married             JobTenure             PartTime         
+ Min.   :-1.345e-05   Min.   :-6.491e-07   Min.   :-8.674e-05  
+ 1st Qu.:-2.392e-06   1st Qu.:-4.346e-07   1st Qu.:-4.412e-05  
+ Median : 4.939e-07   Median :-1.194e-07   Median :-4.383e-06  
+ Mean   : 3.256e-06   Mean   :-3.786e-08   Mean   :-3.754e-07  
+ 3rd Qu.: 4.903e-06   3rd Qu.: 1.607e-07   3rd Qu.: 1.460e-05  
+ Max.   : 9.470e-05   Max.   : 2.705e-06   Max.   : 6.824e-04  
+       Q1                   Q2                   Q3            
+ Min.   :-3.666e-04   Min.   :-2.515e-04   Min.   :-2.583e-04  
+ 1st Qu.: 9.581e-06   1st Qu.: 1.070e-06   1st Qu.: 8.194e-06  
+ Median : 2.854e-05   Median : 6.580e-06   Median : 1.452e-05  
+ Mean   : 3.336e-05   Mean   : 2.605e-05   Mean   : 2.317e-05  
+ 3rd Qu.: 4.714e-05   3rd Qu.: 3.385e-05   3rd Qu.: 2.270e-05  
+ Max.   : 3.707e-04   Max.   : 3.969e-04   Max.   : 2.244e-04  
+       Q4                   Q5                   R2            
+ Min.   :-2.403e-04   Min.   :-2.148e-04   Min.   :-1.237e-03  
+ 1st Qu.: 2.973e-06   1st Qu.:-5.848e-06   1st Qu.: 1.048e-05  
+ Median : 1.117e-05   Median : 1.042e-06   Median : 1.700e-04  
+ Mean   : 2.055e-05   Mean   : 1.463e-05   Mean   : 2.343e-04  
+ 3rd Qu.: 2.369e-05   3rd Qu.: 7.874e-06   3rd Qu.: 4.241e-04  
+ Max.   : 1.993e-04   Max.   : 3.853e-04   Max.   : 8.121e-04  
+       R3                   R4                   R5            
+ Min.   :-0.0011750   Min.   :-1.681e-03   Min.   :-1.120e-03  
+ 1st Qu.: 0.0000136   1st Qu.: 6.739e-06   1st Qu.: 1.976e-05  
+ Median : 0.0001472   Median : 2.942e-04   Median : 1.338e-04  
+ Mean   : 0.0002237   Mean   : 3.133e-04   Mean   : 2.161e-04  
+ 3rd Qu.: 0.0003707   3rd Qu.: 6.673e-04   3rd Qu.: 3.362e-04  
+ Max.   : 0.0008608   Max.   : 9.793e-04   Max.   : 9.163e-04  
+       R6                   R7                   R8            
+ Min.   :-2.080e-03   Min.   :-3.156e-04   Min.   :-0.0023852  
+ 1st Qu.: 1.321e-05   1st Qu.:-1.852e-04   1st Qu.: 0.0000164  
+ Median : 3.952e-04   Median : 2.424e-06   Median : 0.0004045  
+ Mean   : 3.811e-04   Mean   : 3.817e-05   Mean   : 0.0004302  
+ 3rd Qu.: 8.234e-04   3rd Qu.: 2.198e-05   3rd Qu.: 0.0009282  
+ Max.   : 1.208e-03   Max.   : 9.220e-04   Max.   : 0.0012307  
+       R9                  R10                  R11            
+ Min.   :-1.999e-03   Min.   :-1.347e-03   Min.   :-1.079e-03  
+ 1st Qu.: 4.470e-06   1st Qu.: 9.691e-06   1st Qu.: 3.543e-06  
+ Median : 3.721e-04   Median : 2.039e-04   Median : 1.332e-04  
+ Mean   : 3.628e-04   Mean   : 2.503e-04   Mean   : 2.070e-04  
+ 3rd Qu.: 7.878e-04   3rd Qu.: 4.776e-04   3rd Qu.: 3.332e-04  
+ Max.   : 1.169e-03   Max.   : 7.735e-04   Max.   : 7.083e-04  
+      R12                 Y1993                Y1994           
+ Min.   :-1.420e-03   Min.   :-6.419e-05   Min.   :-8.097e-04  
+ 1st Qu.: 1.758e-05   1st Qu.: 4.331e-07   1st Qu.: 2.542e-06  
+ Median : 2.120e-04   Median : 2.435e-06   Median : 5.728e-05  
+ Mean   : 2.531e-04   Mean   : 1.729e-05   Mean   : 1.442e-04  
+ 3rd Qu.: 4.786e-04   3rd Qu.: 5.020e-05   3rd Qu.: 3.194e-04  
+ Max.   : 9.435e-04   Max.   : 7.664e-05   Max.   : 5.355e-04  
+     Y1995                Y1996                Y1997           
+ Min.   :-1.337e-03   Min.   :-1.813e-03   Min.   :-2.904e-03  
+ 1st Qu.: 4.887e-06   1st Qu.: 4.072e-06   1st Qu.: 8.109e-06  
+ Median : 1.125e-04   Median : 1.472e-04   Median : 2.471e-04  
+ Mean   : 2.349e-04   Mean   : 3.163e-04   Mean   : 4.993e-04  
+ 3rd Qu.: 5.112e-04   3rd Qu.: 7.053e-04   3rd Qu.: 1.078e-03  
+ Max.   : 8.722e-04   Max.   : 1.185e-03   Max.   : 1.876e-03  
+     Y1998                Y1999                Y2000           
+ Min.   :-3.198e-03   Min.   :-3.449e-03   Min.   :-3.765e-03  
+ 1st Qu.: 1.003e-05   1st Qu.: 1.211e-05   1st Qu.: 1.189e-05  
+ Median : 2.749e-04   Median : 2.934e-04   Median : 3.243e-04  
+ Mean   : 5.492e-04   Mean   : 5.921e-04   Mean   : 6.463e-04  
+ 3rd Qu.: 1.159e-03   3rd Qu.: 1.236e-03   3rd Qu.: 1.344e-03  
+ Max.   : 2.065e-03   Max.   : 2.232e-03   Max.   : 2.438e-03  
+     Y2001                Y2002                Y2003           
+ Min.   :-3.936e-03   Min.   :-4.001e-03   Min.   :-4.042e-03  
+ 1st Qu.: 1.254e-05   1st Qu.: 1.173e-05   1st Qu.: 8.586e-06  
+ Median : 3.377e-04   Median : 3.448e-04   Median : 3.471e-04  
+ Mean   : 6.754e-04   Mean   : 6.879e-04   Mean   : 6.956e-04  
+ 3rd Qu.: 1.402e-03   3rd Qu.: 1.423e-03   3rd Qu.: 1.441e-03  
+ Max.   : 2.551e-03   Max.   : 2.595e-03   Max.   : 2.633e-03  
+     Y2004                Y2005                Y2006           
+ Min.   :-4.252e-03   Min.   :-4.164e-03   Min.   :-4.070e-03  
+ 1st Qu.: 8.287e-06   1st Qu.: 7.092e-06   1st Qu.: 9.689e-06  
+ Median : 3.682e-04   Median : 3.589e-04   Median : 3.489e-04  
+ Mean   : 7.324e-04   Mean   : 7.179e-04   Mean   : 7.030e-04  
+ 3rd Qu.: 1.514e-03   3rd Qu.: 1.484e-03   3rd Qu.: 1.451e-03  
+ Max.   : 2.775e-03   Max.   : 2.729e-03   Max.   : 2.678e-03  
+     Y2007                Y2008                 SOC2           
+ Min.   :-4.296e-03   Min.   :-3.933e-03   Min.   :-1.114e-04  
+ 1st Qu.: 8.939e-06   1st Qu.: 7.437e-06   1st Qu.:-3.610e-06  
+ Median : 3.732e-04   Median : 3.379e-04   Median : 1.045e-05  
+ Mean   : 7.414e-04   Mean   : 6.809e-04   Mean   : 2.555e-05  
+ 3rd Qu.: 1.531e-03   3rd Qu.: 1.406e-03   3rd Qu.: 4.403e-05  
+ Max.   : 2.850e-03   Max.   : 2.601e-03   Max.   : 2.805e-04  
+      SOC3                 SOC4                 SOC5           
+ Min.   :-1.344e-04   Min.   :-2.238e-04   Min.   :-1.905e-04  
+ 1st Qu.:-3.538e-07   1st Qu.: 7.859e-06   1st Qu.: 2.373e-06  
+ Median : 6.737e-06   Median : 1.962e-05   Median : 1.153e-05  
+ Mean   : 1.946e-05   Mean   : 3.217e-05   Mean   : 2.715e-05  
+ 3rd Qu.: 1.417e-05   3rd Qu.: 3.138e-05   3rd Qu.: 2.191e-05  
+ Max.   : 2.474e-04   Max.   : 2.249e-04   Max.   : 2.167e-04  
+      SOC6                 SOC7                 SOC8           
+ Min.   :-2.252e-04   Min.   :-1.689e-04   Min.   :-2.349e-04  
+ 1st Qu.: 1.187e-06   1st Qu.:-3.541e-06   1st Qu.: 5.634e-06  
+ Median : 6.770e-06   Median : 4.605e-06   Median : 2.045e-05  
+ Mean   : 3.386e-05   Mean   : 2.688e-05   Mean   : 3.536e-05  
+ 3rd Qu.: 3.661e-05   3rd Qu.: 1.797e-05   3rd Qu.: 4.293e-05  
+ Max.   : 4.719e-04   Max.   : 4.467e-04   Max.   : 2.447e-04  
+      SOC9            claimant_count_pc   
+ Min.   :-2.251e-04   Min.   :-7.629e-04  
+ 1st Qu.: 4.761e-06   1st Qu.: 2.797e-06  
+ Median : 1.830e-05   Median : 6.718e-05  
+ Mean   : 3.201e-05   Mean   : 1.282e-04  
+ 3rd Qu.: 2.487e-05   3rd Qu.: 2.662e-04  
+ Max.   : 2.930e-04   Max.   : 4.847e-04  
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+0.0004712 0.0156854 0.0266139 0.0286885 0.0381068 0.0889457 
+[1] 45841

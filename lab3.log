@@ -1,0 +1,687 @@
+
+> ## You should have most of these packages from the previous week but in case you missed them, please download again 
+> 
+> install.packages(c("tidyve ..." ... [TRUNCATED] 
+Error in install.packages : Updating loaded packages
+
+> ## If you are asked "Do you want to install from sources the packages which need compilation", type "Yes".
+> 
+> ##Let's activate the packages 
+> pac .... [TRUNCATED] 
+
+> lapply(packages, library, character.only = T)
+[[1]]
+ [1] "ivreg"     "ggeffects" "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"       "car"      
+[10] "carData"   "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival" 
+[19] "Matrix"    "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"    
+[28] "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[37] "methods"   "base"     
+
+[[2]]
+ [1] "ivreg"     "ggeffects" "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"       "car"      
+[10] "carData"   "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival" 
+[19] "Matrix"    "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"    
+[28] "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[37] "methods"   "base"     
+
+[[3]]
+ [1] "ivreg"     "ggeffects" "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"       "car"      
+[10] "carData"   "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival" 
+[19] "Matrix"    "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"    
+[28] "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[37] "methods"   "base"     
+
+[[4]]
+ [1] "ivreg"     "ggeffects" "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"       "car"      
+[10] "carData"   "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival" 
+[19] "Matrix"    "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"    
+[28] "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[37] "methods"   "base"     
+
+[[5]]
+ [1] "ivreg"     "ggeffects" "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"       "car"      
+[10] "carData"   "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival" 
+[19] "Matrix"    "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"    
+[28] "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[37] "methods"   "base"     
+
+[[6]]
+ [1] "ivreg"     "ggeffects" "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"       "car"      
+[10] "carData"   "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival" 
+[19] "Matrix"    "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"    
+[28] "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[37] "methods"   "base"     
+
+[[7]]
+ [1] "ivreg"     "ggeffects" "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"       "car"      
+[10] "carData"   "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival" 
+[19] "Matrix"    "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"    
+[28] "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[37] "methods"   "base"     
+
+[[8]]
+ [1] "ivreg"     "ggeffects" "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"       "car"      
+[10] "carData"   "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival" 
+[19] "Matrix"    "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"    
+[28] "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[37] "methods"   "base"     
+
+[[9]]
+ [1] "ivreg"     "ggeffects" "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"       "car"      
+[10] "carData"   "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival" 
+[19] "Matrix"    "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"    
+[28] "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[37] "methods"   "base"     
+
+[[10]]
+ [1] "ivreg"     "ggeffects" "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"       "car"      
+[10] "carData"   "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival" 
+[19] "Matrix"    "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"    
+[28] "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[37] "methods"   "base"     
+
+[[11]]
+ [1] "ivreg"     "ggeffects" "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"       "car"      
+[10] "carData"   "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival" 
+[19] "Matrix"    "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"    
+[28] "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[37] "methods"   "base"     
+
+[[12]]
+ [1] "ivreg"     "ggeffects" "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"       "car"      
+[10] "carData"   "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival" 
+[19] "Matrix"    "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"    
+[28] "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[37] "methods"   "base"     
+
+[[13]]
+ [1] "ivreg"     "ggeffects" "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"       "car"      
+[10] "carData"   "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival" 
+[19] "Matrix"    "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"    
+[28] "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[37] "methods"   "base"     
+
+
+> ## Let's start by merging wave 1 and 2
+> ## In order to merge these two waves, we will first need to import both of them
+> ## Let's keep only some o .... [TRUNCATED] 
+
+> bindresp <- read_dta("//sernt2/ec969$/UKDA-5151-stata/stata/stata13/bhps_w2/bindresp.dta") %>%  
++   select(bhid, pid, bsex, bmastat, bage, bqfachi, .... [TRUNCATED] 
+
+> ## Then, we will merge them
+> ## As you can see under global environment, we have 10 variables each but the merged file has 19 variables
+> ## as the .... [TRUNCATED] 
+
+> ## Let's see if there is any overlap between the two levels by tabulating wave1 and wave2 dummies 
+> table(wave12$wave1, wave12$wave2, deparse.level .... [TRUNCATED] 
+            wave12$wave2
+wave12$wave1    1 <NA>
+        1    8970 1294
+        <NA>  875    0
+
+> ## Here we see that there are 8970 observations which are included in both waves, 
+> ## 1294 which is included only in the first wave whle 875 is in .... [TRUNCATED] 
+
+> view(test1)
+
+> ## If we would like to merge using only one merging variable and keep only those whose data we have for both waves
+> test2 <- merge(aindresp, bindre .... [TRUNCATED] 
+
+> view(test2)
+
+> ## AJH comment: I don't see how these are different
+> 
+> 
+> ##If we would like to merge using two merging variables such as pid and hid
+> test3 <- m .... [TRUNCATED] 
+   .id    N   apaygu       sd       se      ci
+1 <NA> 4587 925.7892 676.2024 9.984178 19.5738
+   .id    N   bpaygu       sd      se       ci
+1 <NA> 4444 987.8601 729.8503 10.9483 21.46412
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max.     NA's 
+   8.667  446.333  806.729  925.789 1262.608 7505.774     4383 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+   13.0   487.4   857.3   987.9  1325.0  8606.6    4526 
+[1] 72.39272
+  asex    N    paych       sd       se        ci
+1    1 1966 91.51162 371.6986 8.382994 16.440492
+2    2 2030 53.87658 208.8111 4.634529  9.088931
+ [1] "hid"    "pid"    "sex"    "mastat" "age"    "qfachi" "lknbrd" "paygu"  "region" "wave"  
+   .id     N    paygu       sd       se       ci
+1 <NA> 10007 948.5828 704.0398 7.037935 13.79577
+  wave    N    paygu       sd        se       ci
+1    1 5164 922.7222 679.4844  9.455541 18.53687
+2    2 4843 976.1576 728.3721 10.466370 20.51884
+  sex    N    paych       sd       se        ci
+1   1 1966 91.51162 371.6986 8.382994 16.440492
+2   2 2030 53.87658 208.8111 4.634529  9.088931
+      pid                 hid                sex             age             mastat           qfachi     
+ Min.   : 10002251   Min.   : 1000209   Min.   :1.000   Min.   : 15.00   Min.   : 0.000   Min.   :1.000  
+ 1st Qu.: 14002604   1st Qu.: 7146353   1st Qu.:1.000   1st Qu.: 30.00   1st Qu.: 1.000   1st Qu.:4.000  
+ Median : 17826063   Median :11296813   Median :2.000   Median : 43.00   Median : 1.000   Median :5.000  
+ Mean   : 48496954   Mean   :10839178   Mean   :1.538   Mean   : 45.28   Mean   : 2.537   Mean   :5.018  
+ 3rd Qu.: 95910549   3rd Qu.:15023702   3rd Qu.:2.000   3rd Qu.: 59.00   3rd Qu.: 4.000   3rd Qu.:7.000  
+ Max.   :189305398   Max.   :18895735   Max.   :2.000   Max.   :101.00   Max.   :10.000   Max.   :7.000  
+                                        NA's   :2094    NA's   :9        NA's   :58       NA's   :13759  
+     paygu              jbstat           lknbrd         region2           jbft           jbbgy4           jbsemp     
+ Min.   :    0.08   Min.   : 1.000   Min.   :1.000   Min.   : 1.00   Min.   :1.00    Min.   :1941     Min.   :1.00   
+ 1st Qu.:  650.00   1st Qu.: 2.000   1st Qu.:1.000   1st Qu.: 4.00   1st Qu.:1.00    1st Qu.:1991     1st Qu.:1.00   
+ Median : 1125.00   Median : 2.000   Median :1.000   Median : 8.00   Median :1.00    Median :1997     Median :1.00   
+ Mean   : 1335.75   Mean   : 3.293   Mean   :1.074   Mean   : 7.42   Mean   :1.23    Mean   :1996     Mean   :1.12   
+ 3rd Qu.: 1746.34   3rd Qu.: 4.000   3rd Qu.:1.000   3rd Qu.:10.00   3rd Qu.:1.00    3rd Qu.:2002     3rd Qu.:1.00   
+ Max.   :72055.43   Max.   :10.000   Max.   :2.000   Max.   :13.00   Max.   :2.00    Max.   :2009     Max.   :2.00   
+ NA's   :118881     NA's   :463      NA's   :10194   NA's   :1524    NA's   :99090   NA's   :119092   NA's   :95040  
+     cjsten         jbsoc_cc           doim            ivfio           nchild           hlghq1          hgfno       
+ Min.   :    0   Min.   :10.00    Min.   : 1.000   Min.   :1.000   Min.   :0.0000   Min.   : 0.00   Min.   :0.0000  
+ 1st Qu.:  444   1st Qu.:29.00    1st Qu.: 9.000   1st Qu.:1.000   1st Qu.:0.0000   1st Qu.: 7.00   1st Qu.:0.0000  
+ Median : 1543   Median :45.00    Median :10.000   Median :1.000   Median :0.0000   Median :10.00   Median :0.0000  
+ Mean   : 2827   Mean   :49.47    Mean   : 9.082   Mean   :1.073   Mean   :0.5122   Mean   :11.19   Mean   :0.1127  
+ 3rd Qu.: 4107   3rd Qu.:67.00    3rd Qu.:10.000   3rd Qu.:1.000   3rd Qu.:1.0000   3rd Qu.:13.00   3rd Qu.:0.0000  
+ Max.   :33416   Max.   :99.00    Max.   :12.000   Max.   :3.000   Max.   :9.0000   Max.   :36.00   Max.   :9.0000  
+ NA's   :15239   NA's   :106897   NA's   :21                                        NA's   :19336   NA's   :1       
+     hgmno            fenow            scnow             wave            year     
+ Min.   :0.0000   Min.   :1        Min.   :1.00     Min.   : 1.00   Min.   :1991  
+ 1st Qu.:0.0000   1st Qu.:1        1st Qu.:2.00     1st Qu.: 7.00   1st Qu.:1997  
+ Median :0.0000   Median :1        Median :2.00     Median :11.00   Median :2001  
+ Mean   :0.2077   Mean   :1        Mean   :1.91     Mean   :10.43   Mean   :2000  
+ 3rd Qu.:0.0000   3rd Qu.:1        3rd Qu.:2.00     3rd Qu.:15.00   3rd Qu.:2005  
+ Max.   :9.0000   Max.   :1        Max.   :2.00     Max.   :18.00   Max.   :2008  
+ NA's   :1        NA's   :236118   NA's   :205533                                 
+   wave    N     paygu        sd        se       ci
+1     1 5164  922.7222  679.4844  9.455541 18.53687
+2     2 4843  976.1576  728.3721 10.466370 20.51884
+3     3 4665  992.9055  750.6651 10.990574 21.54672
+4     4 4743 1029.7232  822.8748 11.948330 23.42428
+5     5 4680 1079.9260  844.8099 12.349121 24.21010
+6     6 4885 1121.4303  976.1016 13.965700 27.37905
+7     7 5727 1140.8213  970.4865 12.824071 25.14003
+8     8 5696 1192.5215 1282.5265 16.993442 33.31361
+9     9 7942 1218.5344  937.3965 10.518611 20.61924
+10   10 7924 1290.5130  995.1721 11.179593 21.91495
+11   11 9423 1335.3205  973.2956 10.026519 19.65414
+12   12 8367 1420.0568 1088.1397 11.895968 23.31904
+13   13 8172 1453.6775 1120.9158 12.399633 24.30643
+14   14 7990 1507.8247 1390.8933 15.560389 30.50242
+15   15 7798 1556.6757 1146.0563 12.978196 25.44075
+16   16 7603 1622.6501 1226.3773 14.064737 27.57077
+17   17 7425 1678.9755 1296.5259 15.046413 29.49524
+18   18 7068 1745.9306 1322.8339 15.734649 30.84463
+<labelled<double>[14]>: Government Office Region
+ [1]  7  8  6  9  5  4  2  3  1 10 11 NA 12 13
+
+Labels:
+ value              label
+    -9    missing or wild
+    -8       inapplicable
+    -7              proxy
+    -2            refused
+    -1         don't know
+     1         North East
+     2         North West
+     3 Yorkshire & Humber
+     4      East Midlands
+     5      West Midlands
+     6    East of England
+     7             London
+     8         South East
+     9         South West
+    10              Wales
+    11           Scotland
+    12   Northern Ireland
+    13    Channel Islands
+[1mindexing[0m [34mclaimantcount_1991-2009.csv[0m [===============================================================] [32m1.47GB/s[0m, eta: [36m 0s[0m                                                                                                                                                             [1] "Claimant Count - seasonally adjusted" "...2"                                 "...3"                                
+ [4] "...4"                                 "...5"                                 "...6"                                
+ [7] "...7"                                 "...8"                                 "...9"                                
+[10] "...10"                                "...11"                                "...12"                               
+[13] "...13"                                "...14"                                "...15"                               
+[16] "...16"                                "...17"                                "...18"                               
+[19] "...19"                                "...20"                                "...21"                               
+[22] "...22"                                "...23"                                "...24"                               
+[25] "...25"                               
+            wave12$wave2
+wave12$wave1    1 <NA>
+        1    8970 1294
+        <NA>  875    0
+   .id    N   apaygu       sd       se      ci
+1 <NA> 4587 925.7892 676.2024 9.984178 19.5738
+   .id    N   bpaygu       sd      se       ci
+1 <NA> 4444 987.8601 729.8503 10.9483 21.46412
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max.     NA's 
+   8.667  446.333  806.729  925.789 1262.608 7505.774     4383 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+   13.0   487.4   857.3   987.9  1325.0  8606.6    4526 
+[1] 72.39272
+  asex    N    paych       sd       se        ci
+1    1 1966 91.51162 371.6986 8.382994 16.440492
+2    2 2030 53.87658 208.8111 4.634529  9.088931
+ [1] "hid"    "pid"    "sex"    "mastat" "age"    "qfachi" "lknbrd" "paygu"  "region" "wave"  
+   .id     N    paygu       sd       se       ci
+1 <NA> 10007 948.5828 704.0398 7.037935 13.79577
+  wave    N    paygu       sd        se       ci
+1    1 5164 922.7222 679.4844  9.455541 18.53687
+2    2 4843 976.1576 728.3721 10.466370 20.51884
+  sex    N    paych       sd       se        ci
+1   1 1966 91.51162 371.6986 8.382994 16.440492
+2   2 2030 53.87658 208.8111 4.634529  9.088931
+      pid                 hid                sex             age             mastat           qfachi     
+ Min.   : 10002251   Min.   : 1000209   Min.   :1.000   Min.   : 15.00   Min.   : 0.000   Min.   :1.000  
+ 1st Qu.: 14002604   1st Qu.: 7146353   1st Qu.:1.000   1st Qu.: 30.00   1st Qu.: 1.000   1st Qu.:4.000  
+ Median : 17826063   Median :11296813   Median :2.000   Median : 43.00   Median : 1.000   Median :5.000  
+ Mean   : 48496954   Mean   :10839178   Mean   :1.538   Mean   : 45.28   Mean   : 2.537   Mean   :5.018  
+ 3rd Qu.: 95910549   3rd Qu.:15023702   3rd Qu.:2.000   3rd Qu.: 59.00   3rd Qu.: 4.000   3rd Qu.:7.000  
+ Max.   :189305398   Max.   :18895735   Max.   :2.000   Max.   :101.00   Max.   :10.000   Max.   :7.000  
+                                        NA's   :2094    NA's   :9        NA's   :58       NA's   :13759  
+     paygu              jbstat           lknbrd         region2           jbft           jbbgy4           jbsemp     
+ Min.   :    0.08   Min.   : 1.000   Min.   :1.000   Min.   : 1.00   Min.   :1.00    Min.   :1941     Min.   :1.00   
+ 1st Qu.:  650.00   1st Qu.: 2.000   1st Qu.:1.000   1st Qu.: 4.00   1st Qu.:1.00    1st Qu.:1991     1st Qu.:1.00   
+ Median : 1125.00   Median : 2.000   Median :1.000   Median : 8.00   Median :1.00    Median :1997     Median :1.00   
+ Mean   : 1335.75   Mean   : 3.293   Mean   :1.074   Mean   : 7.42   Mean   :1.23    Mean   :1996     Mean   :1.12   
+ 3rd Qu.: 1746.34   3rd Qu.: 4.000   3rd Qu.:1.000   3rd Qu.:10.00   3rd Qu.:1.00    3rd Qu.:2002     3rd Qu.:1.00   
+ Max.   :72055.43   Max.   :10.000   Max.   :2.000   Max.   :13.00   Max.   :2.00    Max.   :2009     Max.   :2.00   
+ NA's   :118881     NA's   :463      NA's   :10194   NA's   :1524    NA's   :99090   NA's   :119092   NA's   :95040  
+     cjsten         jbsoc_cc           doim            ivfio           nchild           hlghq1          hgfno       
+ Min.   :    0   Min.   :10.00    Min.   : 1.000   Min.   :1.000   Min.   :0.0000   Min.   : 0.00   Min.   :0.0000  
+ 1st Qu.:  444   1st Qu.:29.00    1st Qu.: 9.000   1st Qu.:1.000   1st Qu.:0.0000   1st Qu.: 7.00   1st Qu.:0.0000  
+ Median : 1543   Median :45.00    Median :10.000   Median :1.000   Median :0.0000   Median :10.00   Median :0.0000  
+ Mean   : 2827   Mean   :49.47    Mean   : 9.082   Mean   :1.073   Mean   :0.5122   Mean   :11.19   Mean   :0.1127  
+ 3rd Qu.: 4107   3rd Qu.:67.00    3rd Qu.:10.000   3rd Qu.:1.000   3rd Qu.:1.0000   3rd Qu.:13.00   3rd Qu.:0.0000  
+ Max.   :33416   Max.   :99.00    Max.   :12.000   Max.   :3.000   Max.   :9.0000   Max.   :36.00   Max.   :9.0000  
+ NA's   :15239   NA's   :106897   NA's   :21                                        NA's   :19336   NA's   :1       
+     hgmno            fenow            scnow             wave            year     
+ Min.   :0.0000   Min.   :1        Min.   :1.00     Min.   : 1.00   Min.   :1991  
+ 1st Qu.:0.0000   1st Qu.:1        1st Qu.:2.00     1st Qu.: 7.00   1st Qu.:1997  
+ Median :0.0000   Median :1        Median :2.00     Median :11.00   Median :2001  
+ Mean   :0.2077   Mean   :1        Mean   :1.91     Mean   :10.43   Mean   :2000  
+ 3rd Qu.:0.0000   3rd Qu.:1        3rd Qu.:2.00     3rd Qu.:15.00   3rd Qu.:2005  
+ Max.   :9.0000   Max.   :1        Max.   :2.00     Max.   :18.00   Max.   :2008  
+ NA's   :1        NA's   :236118   NA's   :205533                                 
+   wave    N     paygu        sd        se       ci
+1     1 5164  922.7222  679.4844  9.455541 18.53687
+2     2 4843  976.1576  728.3721 10.466370 20.51884
+3     3 4665  992.9055  750.6651 10.990574 21.54672
+4     4 4743 1029.7232  822.8748 11.948330 23.42428
+5     5 4680 1079.9260  844.8099 12.349121 24.21010
+6     6 4885 1121.4303  976.1016 13.965700 27.37905
+7     7 5727 1140.8213  970.4865 12.824071 25.14003
+8     8 5696 1192.5215 1282.5265 16.993442 33.31361
+9     9 7942 1218.5344  937.3965 10.518611 20.61924
+10   10 7924 1290.5130  995.1721 11.179593 21.91495
+11   11 9423 1335.3205  973.2956 10.026519 19.65414
+12   12 8367 1420.0568 1088.1397 11.895968 23.31904
+13   13 8172 1453.6775 1120.9158 12.399633 24.30643
+14   14 7990 1507.8247 1390.8933 15.560389 30.50242
+15   15 7798 1556.6757 1146.0563 12.978196 25.44075
+16   16 7603 1622.6501 1226.3773 14.064737 27.57077
+17   17 7425 1678.9755 1296.5259 15.046413 29.49524
+18   18 7068 1745.9306 1322.8339 15.734649 30.84463
+<labelled<double>[14]>: Government Office Region
+ [1]  7  8  6  9  5  4  2  3  1 10 11 NA 12 13
+
+Labels:
+ value              label
+    -9    missing or wild
+    -8       inapplicable
+    -7              proxy
+    -2            refused
+    -1         don't know
+     1         North East
+     2         North West
+     3 Yorkshire & Humber
+     4      East Midlands
+     5      West Midlands
+     6    East of England
+     7             London
+     8         South East
+     9         South West
+    10              Wales
+    11           Scotland
+    12   Northern Ireland
+    13    Channel Islands
+[1mindexing[0m [34mclaimantcount_1991-2009.csv[0m [=============================================================] [32m536.38MB/s[0m, eta: [36m 0s[0m                                                                                                                                                             [1] "Claimant Count - seasonally adjusted" "...2"                                 "...3"                                
+ [4] "...4"                                 "...5"                                 "...6"                                
+ [7] "...7"                                 "...8"                                 "...9"                                
+[10] "...10"                                "...11"                                "...12"                               
+[13] "...13"                                "...14"                                "...15"                               
+[16] "...16"                                "...17"                                "...18"                               
+[19] "...19"                                "...20"                                "...21"                               
+[22] "...22"                                "...23"                                "...24"                               
+[25] "...25"                               
+<labelled<double>[12]>: Marital status
+ [1]  6  3  1  5  4  2  0 NA  7 10  8  9
+
+Labels:
+ value                       label
+    -9             missing or wild
+    -8                inapplicable
+    -7                       proxy
+    -2                     refused
+    -1                  don't know
+     0              Under 16 years
+     1                     Married
+     2            Living as couple
+     3                     Widowed
+     4                    Divorced
+     5                   Separated
+     6               Never married
+     7           Civil partnership
+     8 Dissolved civil partnership
+     9         Sep from civil part
+    10        Survive from civ par
+# A tibble: 10 × 5
+# Groups:   mach [10]
+   mach       sex           n    perc cumperc
+   <labelled> <dbl+lbl> <int>   <dbl>   <dbl>
+ 1 11         1 [Male]  63227 57.8       57.8
+ 2 12         1 [Male]    993  0.908     58.7
+ 3 13         1 [Male]    451  0.412     59.1
+ 4 21         1 [Male]    496  0.453     59.6
+ 5 22         1 [Male]   7384  6.75      66.3
+ 6 23         1 [Male]     59  0.0539    66.4
+ 7 31         1 [Male]   1341  1.23      67.6
+ 8 32         1 [Male]     71  0.0649    67.7
+ 9 33         1 [Male]  19714 18.0       85.7
+10 NA         1 [Male]  15660 14.3      100  
+# A tibble: 10 × 5
+# Groups:   mach [10]
+   mach       sex            n    perc cumperc
+   <labelled> <dbl+lbl>  <int>   <dbl>   <dbl>
+ 1 11         2 [Female] 66734 52.3       52.3
+ 2 12         2 [Female]  1610  1.26      53.6
+ 3 13         2 [Female]   623  0.489     54.1
+ 4 21         2 [Female]   847  0.664     54.8
+ 5 22         2 [Female] 20715 16.2       71.0
+ 6 23         2 [Female]    85  0.0667    71.1
+ 7 31         2 [Female]  1573  1.23      72.3
+ 8 32         2 [Female]    97  0.0761    72.4
+ 9 33         2 [Female] 18011 14.1       86.5
+10 NA         2 [Female] 17211 13.5      100  
+  sex     N     paych       sd       se       ci
+1   1 45414 105.53818 851.7433 3.996813 7.833819
+2   2 49333  69.32271 599.4163 2.698732 5.289548
+3  NA     0       NaN       NA       NA      NaN
+   sex mach     N      paych        sd         se         ci
+1    1   11 32072   97.47232  966.2266   5.395305  10.575002
+2    1   12   367   99.53595  389.5281  20.333202  39.984565
+3    1   13   244  193.83183  425.9524  27.268807  53.713397
+4    1   21   235   79.65020  895.5110  58.416698 115.089870
+5    1   22  1953   72.05661  476.6703  10.786164  21.153609
+6    1   23    24 -104.21709 1008.0865 205.774788 425.677582
+7    1   31   863  181.31646  453.6038  15.440851  30.306065
+8    1   32    25   57.97662  295.1075  59.021506 121.814401
+9    1   33  9592  131.54369  462.2170   4.719450   9.251119
+10   1   NA    39  161.99874  261.9783  41.950109  84.923556
+11   2   11 33478   57.10676  527.7147   2.884161   5.653056
+12   2   12   527  -33.81863 2895.7883 126.142522 247.804994
+13   2   13   326  126.25831 1123.4041  62.219599 122.403999
+14   2   21   411   94.34675  355.8224  17.551425  34.502009
+15   2   22  4778   60.75373  482.3930   6.978754  13.681573
+16   2   23    31   -5.10613  303.2140  54.458850 111.219809
+17   2   31   972  143.55210  584.4484  18.746190  36.787713
+18   2   32    33   47.38354  293.2513  51.048494 103.982380
+19   2   33  8727  115.70963  483.8410   5.179289  10.152629
+20   2   NA    50   98.90567  150.4136  21.271691  42.747062
+21  NA   11     0        NaN        NA         NA        NaN
+22  NA   12     0        NaN        NA         NA        NaN
+23  NA   13     0        NaN        NA         NA        NaN
+24  NA   21     0        NaN        NA         NA        NaN
+25  NA   22     0        NaN        NA         NA        NaN
+26  NA   23     0        NaN        NA         NA        NaN
+27  NA   31     0        NaN        NA         NA        NaN
+28  NA   32     0        NaN        NA         NA        NaN
+29  NA   33     0        NaN        NA         NA        NaN
+30  NA   NA     0        NaN        NA         NA        NaN
+d Qu.:0.0000  
+ Max.   :33416   Max.   :99.00    Max.   :12.000   Max.   :3.000   Max.   :9.0000   Max.   :36.00   Max.   :9.0000  
+ NA's   :15239   NA's   :106897   NA's   :21                                        NA's   :19336   NA's   :1       
+     hgmno            fenow            scnow             wave            year     
+ Min.   :0.0000   Min.   :1        Min.   :1.00     Min.   : 1.00   Min.   :1991  
+ 1st Qu.:0.0000   1st Qu.:1        1st Qu.:2.00     1st Qu.: 7.00   1st Qu.:1997  
+ Median :0.0000   Median :1        Median :2.00     Median :11.00   Median :2001  
+ Mean   :0.2077   Mean   :1        Mean   :1.91     Mean   :10.43   Mean   :2000  
+ 3rd Qu.:0.0000   3rd Qu.:1        3rd Qu.:2.00     3rd Qu.:15.00   3rd Qu.:2005  
+ Max.   :9.0000   Max.   :1        Max.   :2.00     Max.   :18.00   Max.   :2008  
+ NA's   :1        NA's   :236118   NA's   :205533                                 
+   wave    N     paygu        sd        se       ci
+1     1 5164  922.7222  679.4844  9.455541 18.53687
+2     2 4843  976.1576  728.3721 10.466370 20.51884
+3     3 4665  992.9055  750.6651 10.990574 21.54672
+4     4 4743 1029.7232  822.8748 11.948330 23.42428
+5     5 4680 1079.9260  844.8099 12.349121 24.21010
+6     6 4885 1121.4303  976.1016 13.965700 27.37905
+7     7 5727 1140.8213  970.4865 12.824071 25.14003
+8     8 5696 1192.5215 1282.5265 16.993442 33.31361
+9     9 7942 1218.5344  937.3965 10.518611 20.61924
+10   10 7924 1290.5130  995.1721 11.179593 21.91495
+11   11 9423 1335.3205  973.2956 10.026519 19.65414
+12   12 8367 1420.0568 1088.1397 11.895968 23.31904
+13   13 8172 1453.6775 1120.9158 12.399633 24.30643
+14   14 7990 1507.8247 1390.8933 15.560389 30.50242
+15   15 7798 1556.6757 1146.0563 12.978196 25.44075
+16   16 7603 1622.6501 1226.3773 14.064737 27.57077
+17   17 7425 1678.9755 1296.5259 15.046413 29.49524
+18   18 7068 1745.9306 1322.8339 15.734649 30.84463
+<labelled<double>[14]>: Government Office Region
+ [1]  7  8  6  9  5  4  2  3  1 10 11 NA 12 13
+
+Labels:
+ value              label
+    -9    missing or wild
+    -8       inapplicable
+    -7              proxy
+    -2            refused
+    -1         don't know
+     1         North East
+     2         North West
+     3 Yorkshire & Humber
+     4      East Midlands
+     5      West Midlands
+     6    East of England
+     7             London
+     8         South East
+     9         South West
+    10              Wales
+    11           Scotland
+    12   Northern Ireland
+    13    Channel Islands
+[1mindexing[0m [34mclaimantcount_1991-2009.csv[0m [===============================================================] [32m1.47GB/s[0m, eta: [36m 0s[0m                                                                                                                                                             [1] "Claimant Count - seasonally adjusted" "...2"                                 "...3"                                
+ [4] "...4"                                 "...5"                                 "...6"                                
+ [7] "...7"                                 "...8"                                 "...9"                                
+[10] "...10"                                "...11"                                "...12"                               
+[13] "...13"                                "...14"                                "...15"                               
+[16] "...16"                                "...17"                                "...18"                               
+[19] "...19"                                "...20"                                "...21"                               
+[22] "...22"                                "...23"                                "...24"                               
+[25] "...25"                               
+            wave12$wave2
+wave12$wave1    1 <NA>
+        1    8970 1294
+        <NA>  875    0
+   .id    N   apaygu       sd       se      ci
+1 <NA> 4587 925.7892 676.2024 9.984178 19.5738
+   .id    N   bpaygu       sd      se       ci
+1 <NA> 4444 987.8601 729.8503 10.9483 21.46412
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max.     NA's 
+   8.667  446.333  806.729  925.789 1262.608 7505.774     4383 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+   13.0   487.4   857.3   987.9  1325.0  8606.6    4526 
+[1] 72.39272
+  asex    N    paych       sd       se        ci
+1    1 1966 91.51162 371.6986 8.382994 16.440492
+2    2 2030 53.87658 208.8111 4.634529  9.088931
+ [1] "hid"    "pid"    "sex"    "mastat" "age"    "qfachi" "lknbrd" "paygu"  "region" "wave"  
+   .id     N    paygu       sd       se       ci
+1 <NA> 10007 948.5828 704.0398 7.037935 13.79577
+  wave    N    paygu       sd        se       ci
+1    1 5164 922.7222 679.4844  9.455541 18.53687
+2    2 4843 976.1576 728.3721 10.466370 20.51884
+  sex    N    paych       sd       se        ci
+1   1 1966 91.51162 371.6986 8.382994 16.440492
+2   2 2030 53.87658 208.8111 4.634529  9.088931
+      pid                 hid                sex             age             mastat           qfachi     
+ Min.   : 10002251   Min.   : 1000209   Min.   :1.000   Min.   : 15.00   Min.   : 0.000   Min.   :1.000  
+ 1st Qu.: 14002604   1st Qu.: 7146353   1st Qu.:1.000   1st Qu.: 30.00   1st Qu.: 1.000   1st Qu.:4.000  
+ Median : 17826063   Median :11296813   Median :2.000   Median : 43.00   Median : 1.000   Median :5.000  
+ Mean   : 48496954   Mean   :10839178   Mean   :1.538   Mean   : 45.28   Mean   : 2.537   Mean   :5.018  
+ 3rd Qu.: 95910549   3rd Qu.:15023702   3rd Qu.:2.000   3rd Qu.: 59.00   3rd Qu.: 4.000   3rd Qu.:7.000  
+ Max.   :189305398   Max.   :18895735   Max.   :2.000   Max.   :101.00   Max.   :10.000   Max.   :7.000  
+                                        NA's   :2094    NA's   :9        NA's   :58       NA's   :13759  
+     paygu              jbstat           lknbrd         region2           jbft           jbbgy4           jbsemp     
+ Min.   :    0.08   Min.   : 1.000   Min.   :1.000   Min.   : 1.00   Min.   :1.00    Min.   :1941     Min.   :1.00   
+ 1st Qu.:  650.00   1st Qu.: 2.000   1st Qu.:1.000   1st Qu.: 4.00   1st Qu.:1.00    1st Qu.:1991     1st Qu.:1.00   
+ Median : 1125.00   Median : 2.000   Median :1.000   Median : 8.00   Median :1.00    Median :1997     Median :1.00   
+ Mean   : 1335.75   Mean   : 3.293   Mean   :1.074   Mean   : 7.42   Mean   :1.23    Mean   :1996     Mean   :1.12   
+ 3rd Qu.: 1746.34   3rd Qu.: 4.000   3rd Qu.:1.000   3rd Qu.:10.00   3rd Qu.:1.00    3rd Qu.:2002     3rd Qu.:1.00   
+ Max.   :72055.43   Max.   :10.000   Max.   :2.000   Max.   :13.00   Max.   :2.00    Max.   :2009     Max.   :2.00   
+ NA's   :118881     NA's   :463      NA's   :10194   NA's   :1524    NA's   :99090   NA's   :119092   NA's   :95040  
+     cjsten         jbsoc_cc           doim            ivfio           nchild           hlghq1          hgfno       
+ Min.   :    0   Min.   :10.00    Min.   : 1.000   Min.   :1.000   Min.   :0.0000   Min.   : 0.00   Min.   :0.0000  
+ 1st Qu.:  444   1st Qu.:29.00    1st Qu.: 9.000   1st Qu.:1.000   1st Qu.:0.0000   1st Qu.: 7.00   1st Qu.:0.0000  
+ Median : 1543   Median :45.00    Median :10.000   Median :1.000   Median :0.0000   Median :10.00   Median :0.0000  
+ Mean   : 2827   Mean   :49.47    Mean   : 9.082   Mean   :1.073   Mean   :0.5122   Mean   :11.19   Mean   :0.1127  
+ 3rd Qu.: 4107   3rd Qu.:67.00    3rd Qu.:10.000   3rd Qu.:1.000   3rd Qu.:1.0000   3rd Qu.:13.00   3rd Qu.:0.0000  
+ Max.   :33416   Max.   :99.00    Max.   :12.000   Max.   :3.000   Max.   :9.0000   Max.   :36.00   Max.   :9.0000  
+ NA's   :15239   NA's   :106897   NA's   :21                                        NA's   :19336   NA's   :1       
+     hgmno            fenow            scnow             wave            year     
+ Min.   :0.0000   Min.   :1        Min.   :1.00     Min.   : 1.00   Min.   :1991  
+ 1st Qu.:0.0000   1st Qu.:1        1st Qu.:2.00     1st Qu.: 7.00   1st Qu.:1997  
+ Median :0.0000   Median :1        Median :2.00     Median :11.00   Median :2001  
+ Mean   :0.2077   Mean   :1        Mean   :1.91     Mean   :10.43   Mean   :2000  
+ 3rd Qu.:0.0000   3rd Qu.:1        3rd Qu.:2.00     3rd Qu.:15.00   3rd Qu.:2005  
+ Max.   :9.0000   Max.   :1        Max.   :2.00     Max.   :18.00   Max.   :2008  
+ NA's   :1        NA's   :236118   NA's   :205533                                 
+   wave    N     paygu        sd        se       ci
+1     1 5164  922.7222  679.4844  9.455541 18.53687
+2     2 4843  976.1576  728.3721 10.466370 20.51884
+3     3 4665  992.9055  750.6651 10.990574 21.54672
+4     4 4743 1029.7232  822.8748 11.948330 23.42428
+5     5 4680 1079.9260  844.8099 12.349121 24.21010
+6     6 4885 1121.4303  976.1016 13.965700 27.37905
+7     7 5727 1140.8213  970.4865 12.824071 25.14003
+8     8 5696 1192.5215 1282.5265 16.993442 33.31361
+9     9 7942 1218.5344  937.3965 10.518611 20.61924
+10   10 7924 1290.5130  995.1721 11.179593 21.91495
+11   11 9423 1335.3205  973.2956 10.026519 19.65414
+12   12 8367 1420.0568 1088.1397 11.895968 23.31904
+13   13 8172 1453.6775 1120.9158 12.399633 24.30643
+14   14 7990 1507.8247 1390.8933 15.560389 30.50242
+15   15 7798 1556.6757 1146.0563 12.978196 25.44075
+16   16 7603 1622.6501 1226.3773 14.064737 27.57077
+17   17 7425 1678.9755 1296.5259 15.046413 29.49524
+18   18 7068 1745.9306 1322.8339 15.734649 30.84463
+<labelled<double>[14]>: Government Office Region
+ [1]  7  8  6  9  5  4  2  3  1 10 11 NA 12 13
+
+Labels:
+ value              label
+    -9    missing or wild
+    -8       inapplicable
+    -7              proxy
+    -2            refused
+    -1         don't know
+     1         North East
+     2         North West
+     3 Yorkshire & Humber
+     4      East Midlands
+     5      West Midlands
+     6    East of England
+     7             London
+     8         South East
+     9         South West
+    10              Wales
+    11           Scotland
+    12   Northern Ireland
+    13    Channel Islands
+[1mindexing[0m [34mclaimantcount_1991-2009.csv[0m [=============================================================] [32m536.38MB/s[0m, eta: [36m 0s[0m                                                                                                                                                             [1] "Claimant Count - seasonally adjusted" "...2"                                 "...3"                                
+ [4] "...4"                                 "...5"                                 "...6"                                
+ [7] "...7"                                 "...8"                                 "...9"                                
+[10] "...10"                                "...11"                                "...12"                               
+[13] "...13"                                "...14"                                "...15"                               
+[16] "...16"                                "...17"                                "...18"                               
+[19] "...19"                                "...20"                                "...21"                               
+[22] "...22"                                "...23"                                "...24"                               
+[25] "...25"                               
+<labelled<double>[12]>: Marital status
+ [1]  6  3  1  5  4  2  0 NA  7 10  8  9
+
+Labels:
+ value                       label
+    -9             missing or wild
+    -8                inapplicable
+    -7                       proxy
+    -2                     refused
+    -1                  don't know
+     0              Under 16 years
+     1                     Married
+     2            Living as couple
+     3                     Widowed
+     4                    Divorced
+     5                   Separated
+     6               Never married
+     7           Civil partnership
+     8 Dissolved civil partnership
+     9         Sep from civil part
+    10        Survive from civ par
+# A tibble: 10 × 5
+# Groups:   mach [10]
+   mach       sex           n    perc cumperc
+   <labelled> <dbl+lbl> <int>   <dbl>   <dbl>
+ 1 11         1 [Male]  63227 57.8       57.8
+ 2 12         1 [Male]    993  0.908     58.7
+ 3 13         1 [Male]    451  0.412     59.1
+ 4 21         1 [Male]    496  0.453     59.6
+ 5 22         1 [Male]   7384  6.75      66.3
+ 6 23         1 [Male]     59  0.0539    66.4
+ 7 31         1 [Male]   1341  1.23      67.6
+ 8 32         1 [Male]     71  0.0649    67.7
+ 9 33         1 [Male]  19714 18.0       85.7
+10 NA         1 [Male]  15660 14.3      100  
+# A tibble: 10 × 5
+# Groups:   mach [10]
+   mach       sex            n    perc cumperc
+   <labelled> <dbl+lbl>  <int>   <dbl>   <dbl>
+ 1 11         2 [Female] 66734 52.3       52.3
+ 2 12         2 [Female]  1610  1.26      53.6
+ 3 13         2 [Female]   623  0.489     54.1
+ 4 21         2 [Female]   847  0.664     54.8
+ 5 22         2 [Female] 20715 16.2       71.0
+ 6 23         2 [Female]    85  0.0667    71.1
+ 7 31         2 [Female]  1573  1.23      72.3
+ 8 32         2 [Female]    97  0.0761    72.4
+ 9 33         2 [Female] 18011 14.1       86.5
+10 NA         2 [Female] 17211 13.5      100  
+  sex     N     paych       sd       se       ci
+1   1 45414 105.53818 851.7433 3.996813 7.833819
+2   2 49333  69.32271 599.4163 2.698732 5.289548
+3  NA     0       NaN       NA       NA      NaN
+   sex mach     N      paych        sd         se         ci
+1    1   11 32072   97.47232  966.2266   5.395305  10.575002
+2    1   12   367   99.53595  389.5281  20.333202  39.984565
+3    1   13   244  193.83183  425.9524  27.268807  53.713397
+4    1   21   235   79.65020  895.5110  58.416698 115.089870
+5    1   22  1953   72.05661  476.6703  10.786164  21.153609
+6    1   23    24 -104.21709 1008.0865 205.774788 425.677582
+7    1   31   863  181.31646  453.6038  15.440851  30.306065
+8    1   32    25   57.97662  295.1075  59.021506 121.814401
+9    1   33  9592  131.54369  462.2170   4.719450   9.251119
+10   1   NA    39  161.99874  261.9783  41.950109  84.923556
+11   2   11 33478   57.10676  527.7147   2.884161   5.653056
+12   2   12   527  -33.81863 2895.7883 126.142522 247.804994
+13   2   13   326  126.25831 1123.4041  62.219599 122.403999
+14   2   21   411   94.34675  355.8224  17.551425  34.502009
+15   2   22  4778   60.75373  482.3930   6.978754  13.681573
+16   2   23    31   -5.10613  303.2140  54.458850 111.219809
+17   2   31   972  143.55210  584.4484  18.746190  36.787713
+18   2   32    33   47.38354  293.2513  51.048494 103.982380
+19   2   33  8727  115.70963  483.8410   5.179289  10.152629
+20   2   NA    50   98.90567  150.4136  21.271691  42.747062
+21  NA   11     0        NaN        NA         NA        NaN
+22  NA   12     0        NaN        NA         NA        NaN
+23  NA   13     0        NaN        NA         NA        NaN
+24  NA   21     0        NaN        NA         NA        NaN
+25  NA   22     0        NaN        NA         NA        NaN
+26  NA   23     0        NaN        NA         NA        NaN
+27  NA   31     0        NaN        NA         NA        NaN
+28  NA   32     0        NaN        NA         NA        NaN
+29  NA   33     0        NaN        NA         NA        NaN
+30  NA   NA     0        NaN        NA         NA        NaN

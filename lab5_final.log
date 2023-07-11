@@ -1,0 +1,1134 @@
+package ‘tidyverse’ successfully unpacked and MD5 sums checked
+package ‘naniar’ successfully unpacked and MD5 sums checked
+package ‘haven’ successfully unpacked and MD5 sums checked
+package ‘survey’ successfully unpacked and MD5 sums checked
+package ‘labelled’ successfully unpacked and MD5 sums checked
+package ‘Rmisc’ successfully unpacked and MD5 sums checked
+package ‘expss’ successfully unpacked and MD5 sums checked
+package ‘ggplot2’ successfully unpacked and MD5 sums checked
+package ‘AER’ successfully unpacked and MD5 sums checked
+package ‘estimatr’ successfully unpacked and MD5 sums checked
+package ‘margins’ successfully unpacked and MD5 sums checked
+package ‘ggeffects’ successfully unpacked and MD5 sums checked
+package ‘plm’ successfully unpacked and MD5 sums checked
+package ‘ivreg’ successfully unpacked and MD5 sums checked
+package ‘mfx’ successfully unpacked and MD5 sums checked
+package ‘multiwayvcov’ successfully unpacked and MD5 sums checked
+package ‘stargazer’ successfully unpacked and MD5 sums checked
+package ‘htmltools’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\sw22905\AppData\Local\Temp\RtmpUtI9y5\downloaded_packages
+[[1]]
+ [1] "forcats"   "stringr"   "dplyr"     "purrr"     "readr"     "tidyr"     "tibble"    "ggplot2"   "tidyverse"
+[10] "stats"     "graphics"  "grDevices" "utils"     "datasets"  "methods"   "base"     
+
+[[2]]
+ [1] "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"     "tidyr"     "tibble"    "ggplot2"  
+[10] "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets"  "methods"   "base"     
+
+[[3]]
+ [1] "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"     "tidyr"     "tibble"   
+[10] "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets"  "methods"   "base"     
+
+[[4]]
+ [1] "survey"    "survival"  "Matrix"    "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"    
+[10] "purrr"     "readr"     "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices"
+[19] "utils"     "datasets"  "methods"   "base"     
+
+[[5]]
+ [1] "labelled"  "survey"    "survival"  "Matrix"    "grid"      "haven"     "naniar"    "forcats"   "stringr"  
+[10] "dplyr"     "purrr"     "readr"     "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics" 
+[19] "grDevices" "utils"     "datasets"  "methods"   "base"     
+
+[[6]]
+ [1] "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival"  "Matrix"    "grid"      "haven"    
+[10] "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"     "tidyr"     "tibble"    "ggplot2"  
+[19] "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets"  "methods"   "base"     
+
+[[7]]
+ [1] "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival"  "Matrix"   
+[10] "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"     "tidyr"    
+[19] "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets"  "methods"  
+[28] "base"     
+
+[[8]]
+ [1] "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival"  "Matrix"   
+[10] "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"     "tidyr"    
+[19] "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets"  "methods"  
+[28] "base"     
+
+[[9]]
+ [1] "AER"       "sandwich"  "lmtest"    "zoo"       "car"       "carData"   "expss"     "maditr"    "Rmisc"    
+[10] "plyr"      "lattice"   "labelled"  "survey"    "survival"  "Matrix"    "grid"      "haven"     "naniar"   
+[19] "forcats"   "stringr"   "dplyr"     "purrr"     "readr"     "tidyr"     "tibble"    "ggplot2"   "tidyverse"
+[28] "stats"     "graphics"  "grDevices" "utils"     "datasets"  "methods"   "base"     
+
+[[10]]
+ [1] "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"       "car"       "carData"   "expss"     "maditr"   
+[10] "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival"  "Matrix"    "grid"      "haven"    
+[19] "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"     "tidyr"     "tibble"    "ggplot2"  
+[28] "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets"  "methods"   "base"     
+
+[[11]]
+ [1] "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"       "car"       "carData"   "expss"    
+[10] "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival"  "Matrix"    "grid"     
+[19] "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"     "tidyr"     "tibble"   
+[28] "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets"  "methods"   "base"     
+
+[[12]]
+ [1] "ggeffects" "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"       "car"       "carData"  
+[10] "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival"  "Matrix"   
+[19] "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"     "tidyr"    
+[28] "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets"  "methods"  
+[37] "base"     
+
+[[13]]
+ [1] "ivreg"     "ggeffects" "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"       "car"      
+[10] "carData"   "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"    "survival" 
+[19] "Matrix"    "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"     "readr"    
+[28] "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[37] "methods"   "base"     
+
+[[14]]
+ [1] "plm"       "ivreg"     "ggeffects" "margins"   "estimatr"  "AER"       "sandwich"  "lmtest"    "zoo"      
+[10] "car"       "carData"   "expss"     "maditr"    "Rmisc"     "plyr"      "lattice"   "labelled"  "survey"   
+[19] "survival"  "Matrix"    "grid"      "haven"     "naniar"    "forcats"   "stringr"   "dplyr"     "purrr"    
+[28] "readr"     "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"     "graphics"  "grDevices" "utils"    
+[37] "datasets"  "methods"   "base"     
+
+[[15]]
+ [1] "mfx"       "betareg"   "MASS"      "plm"       "ivreg"     "ggeffects" "margins"   "estimatr"  "AER"      
+[10] "sandwich"  "lmtest"    "zoo"       "car"       "carData"   "expss"     "maditr"    "Rmisc"     "plyr"     
+[19] "lattice"   "labelled"  "survey"    "survival"  "Matrix"    "grid"      "haven"     "naniar"    "forcats"  
+[28] "stringr"   "dplyr"     "purrr"     "readr"     "tidyr"     "tibble"    "ggplot2"   "tidyverse" "stats"    
+[37] "graphics"  "grDevices" "utils"     "datasets"  "methods"   "base"     
+
+[[16]]
+ [1] "multiwayvcov" "mfx"          "betareg"      "MASS"         "plm"          "ivreg"        "ggeffects"   
+ [8] "margins"      "estimatr"     "AER"          "sandwich"     "lmtest"       "zoo"          "car"         
+[15] "carData"      "expss"        "maditr"       "Rmisc"        "plyr"         "lattice"      "labelled"    
+[22] "survey"       "survival"     "Matrix"       "grid"         "haven"        "naniar"       "forcats"     
+[29] "stringr"      "dplyr"        "purrr"        "readr"        "tidyr"        "tibble"       "ggplot2"     
+[36] "tidyverse"    "stats"        "graphics"     "grDevices"    "utils"        "datasets"     "methods"     
+[43] "base"        
+
+[[17]]
+ [1] "stargazer"    "multiwayvcov" "mfx"          "betareg"      "MASS"         "plm"          "ivreg"       
+ [8] "ggeffects"    "margins"      "estimatr"     "AER"          "sandwich"     "lmtest"       "zoo"         
+[15] "car"          "carData"      "expss"        "maditr"       "Rmisc"        "plyr"         "lattice"     
+[22] "labelled"     "survey"       "survival"     "Matrix"       "grid"         "haven"        "naniar"      
+[29] "forcats"      "stringr"      "dplyr"        "purrr"        "readr"        "tidyr"        "tibble"      
+[36] "ggplot2"      "tidyverse"    "stats"        "graphics"     "grDevices"    "utils"        "datasets"    
+[43] "methods"      "base"        
+
+[[18]]
+ [1] "htmltools"    "stargazer"    "multiwayvcov" "mfx"          "betareg"      "MASS"         "plm"         
+ [8] "ivreg"        "ggeffects"    "margins"      "estimatr"     "AER"          "sandwich"     "lmtest"      
+[15] "zoo"          "car"          "carData"      "expss"        "maditr"       "Rmisc"        "plyr"        
+[22] "lattice"      "labelled"     "survey"       "survival"     "Matrix"       "grid"         "haven"       
+[29] "naniar"       "forcats"      "stringr"      "dplyr"        "purrr"        "readr"        "tidyr"       
+[36] "tibble"       "ggplot2"      "tidyverse"    "stats"        "graphics"     "grDevices"    "utils"       
+[43] "datasets"     "methods"      "base"        
+
+            missing or wild                inapplicable                       proxy                     refused 
+                         -9                          -8                          -7                          -2 
+                 don't know              Under 16 years                     Married            Living as couple 
+                         -1                           0                           1                           2 
+                    Widowed                    Divorced                   Separated               Never married 
+                          3                           4                           5                           6 
+          Civil partnership Dissolved civil partnership         Sep from civil part        Survive from civ par 
+                          7                           8                           9                          10 
+
+     0      1      2      3      4      5      6      7      8      9     10 
+   523 127836  25209  18304  12636   4042  50332     47      1      2      2 
+# A tibble: 31 × 5
+# Groups:   sex.x [3]
+   sex.x     mastat                              n      perc cumperc
+   <dbl+lbl> <dbl+lbl>                       <int>     <dbl>   <dbl>
+ 1 1 [Male]  0 [Under 16 years]                251  0.105      0.105
+ 2 1 [Male]  1 [Married]                     61703 25.8       25.9  
+ 3 1 [Male]  2 [Living as couple]            12099  5.06      31.0  
+ 4 1 [Male]  3 [Widowed]                      3995  1.67      32.7  
+ 5 1 [Male]  4 [Divorced]                     4103  1.72      34.4  
+ 6 1 [Male]  5 [Separated]                    1384  0.579     35.0  
+ 7 1 [Male]  6 [Never married]               25803 10.8       45.7  
+ 8 1 [Male]  7 [Civil partnership]              30  0.0126    45.8  
+ 9 1 [Male]  8 [Dissolved civil partnership]     1  0.000418  45.8  
+10 1 [Male]  9 [Sep from civil part]             1  0.000418  45.8  
+# … with 21 more rows
+# ℹ Use `print(n = ...)` to see more rows
+           never married                partnered seperated, widowed, etc. 
+                       1                        2                        3 
+# A tibble: 8 × 5
+# Groups:   sex.x [2]
+  sex.x      mstat          n   perc cumperc
+  <dbl+lbl>  <labelled> <int>  <dbl>   <dbl>
+1 1 [Male]    1         25803 10.9      10.9
+2 1 [Male]    2         73832 31.2      42.1
+3 1 [Male]    3          9485  4.00     46.1
+4 1 [Male]   NA           251  0.106    46.2
+5 2 [Female]  1         24102 10.2      56.4
+6 2 [Female]  2         77950 32.9      89.3
+7 2 [Female]  3         25158 10.6      99.9
+8 2 [Female] NA           271  0.114   100  
+[1] TRUE
+
+    0     1 
+58868  3158 
+         df$mastat
+df$FstMar     0     1     2     3     4     5     6     7     8     9    10
+        0     0     0 19734     0     0     0 39134     0     0     0     0
+        1     0  3138     0     0     0     0     0    20     0     0     0
+         df$mastat
+df$FstMar      0      1      2      3      4      5      6      7      8      9     10   <NA>
+     0         0      0  19734      0      0      0  39134      0      0      0      0      0
+     1         0   3138      0      0      0      0      0     20      0      0      0      0
+     <NA>    523 124698   5475  18304  12636   4042  11198     27      1      2      2     58
+         df$mastat
+df$FstMar     1     2     6     7  <NA>
+     0        0 19734 39134     0     0
+     1     3138     0     0    20     0
+     <NA>     0  5475 11198     0    58
+
+    0     1 
+58868  3158 
+         df$lag.mastat
+df$FstMar     0     1     2     3     4     5     6     7  <NA>
+     0        0     0 18362     0     0     0 40506     0     0
+     1        0     0  2621     0     0     0   537     0     0
+     <NA>   461   419     2   120   582   304    31     3 14809
+         df$lag.mastat
+df$mastat     0     1     2     3     4     5     6     7  <NA>
+     1        0     0  2603     0     0     0   535     0     0
+     2        6   369 17326    89   514   233  2408     2  4262
+     6      454    50  1036    20    61    67 38098     1 10545
+     7        0     0    18     0     0     0     2     0     0
+     <NA>     1     0     2    11     7     4    31     0     2
+
+    0     1 
+58868  3158 
+
+    0     1 
+53490 25209 
+
+    0     1 
+64470 14287 
+
+    0     1 
+50236 28521 
+
+    0     1 
+73543  5214 
+
+Not employed    Part-time    Full-time 
+       25766        10571        42420 
+
+    0     1 
+42527  6679 
+[1] TRUE
+
+    0     1 
+51453 11228 
+
+    0     1 
+58868  3158 
+
+    0     1 
+51453 11228 
+
+Call:
+lm(formula = FstMar ~ lag.age:lag.age + lag.coh + lag.anykids + 
+    lag.parentsHH + lag.enrolled + lag.qualifications + lag.london + 
+    lag.hrwk + lag.hlghq1 + lag.claimant_count_pc, data = df, 
+    subset = Female == 1)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.29632 -0.11201 -0.02777 -0.00273  1.02570 
+
+Coefficients:
+                            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)               -0.0114870  0.1313145  -0.087 0.930293    
+lag.age                   -0.0005382  0.0001420  -3.791 0.000151 ***
+lag.coh                    0.1064493  0.0044613  23.861  < 2e-16 ***
+lag.anykids                0.0004364  0.0048048   0.091 0.927635    
+lag.parentsHH             -0.0106406  0.0051045  -2.085 0.037126 *  
+lag.enrolled              -0.0136919  0.0082311  -1.663 0.096244 .  
+lag.qualifications        -0.0031162  0.0015615  -1.996 0.045987 *  
+lag.london                -0.0067162  0.0075781  -0.886 0.375491    
+lag.hrwk                   0.0082458  0.0022346   3.690 0.000225 ***
+lag.hlghq1                -0.0011339  0.0003099  -3.659 0.000254 ***
+lag.claimant_count_pc1.2   0.0262134  0.1337845   0.196 0.844662    
+lag.claimant_count_pc1.3   0.0458771  0.1314082   0.349 0.727004    
+lag.claimant_count_pc1.4   0.0592811  0.1316082   0.450 0.652402    
+lag.claimant_count_pc1.5   0.0589405  0.1314463   0.448 0.653871    
+lag.claimant_count_pc1.6   0.0545715  0.1314945   0.415 0.678140    
+lag.claimant_count_pc1.7   0.0551370  0.1316073   0.419 0.675257    
+lag.claimant_count_pc1.8   0.0717866  0.1316368   0.545 0.585528    
+lag.claimant_count_pc1.9   0.0508913  0.1318529   0.386 0.699524    
+lag.claimant_count_pc10.0  0.0317746  0.1660414   0.191 0.848242    
+lag.claimant_count_pc10.1  0.0201114  0.1344320   0.150 0.881080    
+lag.claimant_count_pc10.2  0.1158009  0.1342956   0.862 0.388544    
+lag.claimant_count_pc10.3  0.0650443  0.1345993   0.483 0.628929    
+lag.claimant_count_pc10.4  0.0247753  0.1736601   0.143 0.886556    
+lag.claimant_count_pc2.0   0.0466850  0.1318661   0.354 0.723318    
+lag.claimant_count_pc2.1   0.0621654  0.1318743   0.471 0.637362    
+lag.claimant_count_pc2.2   0.0443163  0.1314704   0.337 0.736059    
+lag.claimant_count_pc2.3   0.0562103  0.1321385   0.425 0.670558    
+lag.claimant_count_pc2.4   0.0515200  0.1314643   0.392 0.695142    
+lag.claimant_count_pc2.5   0.0527247  0.1314632   0.401 0.688380    
+lag.claimant_count_pc2.6   0.0639029  0.1318980   0.484 0.628046    
+lag.claimant_count_pc2.7   0.0647315  0.1315321   0.492 0.622631    
+lag.claimant_count_pc2.8   0.0548878  0.1314707   0.417 0.676325    
+lag.claimant_count_pc2.9   0.0442990  0.1315098   0.337 0.736235    
+lag.claimant_count_pc3.0   0.0769425  0.1319809   0.583 0.559913    
+lag.claimant_count_pc3.1   0.0597028  0.1316006   0.454 0.650074    
+lag.claimant_count_pc3.2   0.0636510  0.1314891   0.484 0.628337    
+lag.claimant_count_pc3.3   0.0379708  0.1317466   0.288 0.773189    
+lag.claimant_count_pc3.4   0.0682426  0.1317524   0.518 0.604492    
+lag.claimant_count_pc3.5   0.0390569  0.1323436   0.295 0.767907    
+lag.claimant_count_pc3.6   0.0368832  0.1321737   0.279 0.780209    
+lag.claimant_count_pc3.7   0.0695630  0.1319647   0.527 0.598108    
+lag.claimant_count_pc3.8   0.0883935  0.1318367   0.670 0.502563    
+lag.claimant_count_pc3.9   0.0843556  0.1328773   0.635 0.525543    
+lag.claimant_count_pc4.0   0.0469293  0.1331777   0.352 0.724557    
+lag.claimant_count_pc4.1   0.0400595  0.1328775   0.301 0.763054    
+lag.claimant_count_pc4.2   0.0707492  0.1316949   0.537 0.591122    
+lag.claimant_count_pc4.3   0.0781138  0.1327255   0.589 0.556180    
+lag.claimant_count_pc4.4   0.0969784  0.1329361   0.730 0.465699    
+lag.claimant_count_pc4.5   0.0729128  0.1323573   0.551 0.581724    
+lag.claimant_count_pc4.6   0.1183090  0.1328428   0.891 0.373160    
+lag.claimant_count_pc4.7   0.0920065  0.1322032   0.696 0.486471    
+lag.claimant_count_pc4.8   0.0782125  0.1324110   0.591 0.554743    
+lag.claimant_count_pc4.9   0.0859873  0.1329436   0.647 0.517773    
+lag.claimant_count_pc5.0   0.0732735  0.1336818   0.548 0.583617    
+lag.claimant_count_pc5.1   0.0625494  0.1325040   0.472 0.636892    
+lag.claimant_count_pc5.2   0.0915230  0.1383656   0.661 0.508328    
+lag.claimant_count_pc5.3   0.0404023  0.1328335   0.304 0.761012    
+lag.claimant_count_pc5.4   0.0607799  0.1317901   0.461 0.644670    
+lag.claimant_count_pc5.5   0.0711745  0.1327888   0.536 0.591967    
+lag.claimant_count_pc5.6   0.0592589  0.1330052   0.446 0.655937    
+lag.claimant_count_pc5.7   0.1220081  0.1333898   0.915 0.360376    
+lag.claimant_count_pc5.8   0.0499775  0.1353525   0.369 0.711953    
+lag.claimant_count_pc5.9   0.0687125  0.1348757   0.509 0.610443    
+lag.claimant_count_pc6.0   0.1115604  0.1327860   0.840 0.400835    
+lag.claimant_count_pc6.1   0.0736485  0.1320695   0.558 0.577091    
+lag.claimant_count_pc6.2   0.0667447  0.1326969   0.503 0.614980    
+lag.claimant_count_pc6.3   0.0807402  0.1321768   0.611 0.541307    
+lag.claimant_count_pc6.4   0.1152006  0.1325805   0.869 0.384908    
+lag.claimant_count_pc6.5   0.0387015  0.1336166   0.290 0.772091    
+lag.claimant_count_pc6.6   0.0436181  0.1353647   0.322 0.747285    
+lag.claimant_count_pc6.7   0.0908541  0.1329537   0.683 0.494394    
+lag.claimant_count_pc6.8   0.1057995  0.1323487   0.799 0.424070    
+lag.claimant_count_pc6.9   0.0927623  0.1320768   0.702 0.482479    
+lag.claimant_count_pc7.0   0.1149297  0.1336490   0.860 0.389836    
+lag.claimant_count_pc7.1   0.0662354  0.1333930   0.497 0.619518    
+lag.claimant_count_pc7.2   0.0625451  0.1365072   0.458 0.646828    
+lag.claimant_count_pc7.3   0.0731629  0.1338596   0.547 0.584685    
+lag.claimant_count_pc7.4   0.0533108  0.1339149   0.398 0.690565    
+lag.claimant_count_pc7.5   0.0914297  0.1357495   0.674 0.500627    
+lag.claimant_count_pc7.6   0.0688225  0.1321220   0.521 0.602442    
+lag.claimant_count_pc7.7   0.0535891  0.1325932   0.404 0.686099    
+lag.claimant_count_pc7.8   0.0415497  0.1346693   0.309 0.757682    
+lag.claimant_count_pc7.9   0.1043905  0.1343840   0.777 0.437283    
+lag.claimant_count_pc8.0   0.0949159  0.1340916   0.708 0.479052    
+lag.claimant_count_pc8.1  -0.0003309  0.1416728  -0.002 0.998136    
+lag.claimant_count_pc8.2   0.0796517  0.1336788   0.596 0.551287    
+lag.claimant_count_pc8.3   0.1010456  0.1327902   0.761 0.446702    
+lag.claimant_count_pc8.4   0.0590896  0.1329312   0.445 0.656678    
+lag.claimant_count_pc8.5   0.0959048  0.1379928   0.695 0.487066    
+lag.claimant_count_pc8.6   0.2160097  0.1411050   1.531 0.125827    
+lag.claimant_count_pc8.7   0.1227651  0.1406539   0.873 0.382775    
+lag.claimant_count_pc8.8  -0.0297872  0.1855977  -0.160 0.872494    
+lag.claimant_count_pc8.9  -0.0422444  0.1734869  -0.244 0.807619    
+lag.claimant_count_pc9.0   0.0922298  0.1357434   0.679 0.496867    
+lag.claimant_count_pc9.1   0.0281397  0.1379535   0.204 0.838372    
+lag.claimant_count_pc9.2   0.0794058  0.1338773   0.593 0.553106    
+lag.claimant_count_pc9.3   0.0636757  0.1371928   0.464 0.642558    
+lag.claimant_count_pc9.7   0.0725084  0.1363203   0.532 0.594804    
+lag.claimant_count_pc9.8   0.0508350  0.2624112   0.194 0.846395    
+lag.claimant_count_pc9.9   0.1000868  0.1339153   0.747 0.454839    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2271 on 17010 degrees of freedom
+  (21557 observations deleted due to missingness)
+Multiple R-squared:  0.06475,	Adjusted R-squared:  0.05931 
+F-statistic:  11.9 on 99 and 17010 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = FstMar ~ lag.age + lag.age2 + lag.coh + lag.anykids + 
+    lag.parentsHH + lag.enrolled + lag.qualifications + lag.london + 
+    lag.hrwk + lag.hlghq1 + lag.claimant_count_pc, data = df, 
+    subset = Female == 1)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.17555 -0.11567 -0.02633 -0.00716  1.01310 
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            2.280e-02  1.421e-02   1.605 0.108589    
+lag.age                1.161e-04  6.548e-04   0.177 0.859261    
+lag.age2              -8.075e-06  7.360e-06  -1.097 0.272609    
+lag.coh                1.054e-01  4.523e-03  23.305  < 2e-16 ***
+lag.anykids1          -8.742e-04  5.053e-03  -0.173 0.862642    
+lag.parentsHH1        -9.362e-03  5.167e-03  -1.812 0.069999 .  
+lag.enrolled1         -1.408e-02  8.350e-03  -1.686 0.091866 .  
+lag.qualifications2    1.855e-03  9.116e-03   0.203 0.838805    
+lag.qualifications3   -6.002e-03  6.015e-03  -0.998 0.318336    
+lag.qualifications4   -9.608e-03  5.648e-03  -1.701 0.088971 .  
+lag.qualifications5   -8.206e-03  7.194e-03  -1.141 0.254049    
+lag.london1           -1.407e-02  5.432e-03  -2.590 0.009610 ** 
+lag.hrwk1              7.078e-03  5.256e-03   1.347 0.178104    
+lag.hrwk2              1.474e-02  4.732e-03   3.116 0.001839 ** 
+lag.hlghq1            -1.200e-03  3.101e-04  -3.870 0.000109 ***
+lag.claimant_count_pc  4.686e-03  8.604e-04   5.446 5.23e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2272 on 17094 degrees of freedom
+  (21557 observations deleted due to missingness)
+Multiple R-squared:  0.0597,	Adjusted R-squared:  0.05888 
+F-statistic: 72.35 on 15 and 17094 DF,  p-value: < 2.2e-16
+
+[1] 17110
+
+Call:
+glm(formula = FstMar ~ lag.age:lag.age + lag.coh + lag.anykids + 
+    lag.parentsHH + lag.enrolled + lag.qualifications + lag.london + 
+    lag.hrwk + lag.hlghq1 + lag.claimant_count_pc, family = "binomial", 
+    data = df_female[df_female$Female == 1, ])
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-0.8024  -0.4584  -0.1920  -0.1533   3.3726  
+
+Coefficients:
+                       Estimate Std. Error z value Pr(>|z|)    
+(Intercept)           -3.772315   0.216124 -17.454  < 2e-16 ***
+lag.age               -0.016300   0.003522  -4.628 3.70e-06 ***
+lag.coh                2.156123   0.117114  18.410  < 2e-16 ***
+lag.anykids1           0.093518   0.083917   1.114 0.265101    
+lag.parentsHH1        -0.207903   0.146522  -1.419 0.155924    
+lag.enrolled1         -1.467293   0.457251  -3.209 0.001332 ** 
+lag.qualifications2   -0.031222   0.155767  -0.200 0.841137    
+lag.qualifications3   -0.126336   0.107287  -1.178 0.238972    
+lag.qualifications4   -0.209002   0.098467  -2.123 0.033792 *  
+lag.qualifications5   -0.199300   0.134825  -1.478 0.139351    
+lag.london1           -0.273841   0.117018  -2.340 0.019275 *  
+lag.hrwk1              0.259678   0.112849   2.301 0.021386 *  
+lag.hrwk2              0.395091   0.096873   4.078 4.53e-05 ***
+lag.hlghq1            -0.023836   0.006440  -3.701 0.000215 ***
+lag.claimant_count_pc  0.091903   0.016755   5.485 4.13e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 7597.5  on 17109  degrees of freedom
+Residual deviance: 6531.1  on 17095  degrees of freedom
+AIC: 6561.1
+
+Number of Fisher Scoring iterations: 7
+
+[1] 17110
+
+==================================================
+                          Dependent variable:     
+                      ----------------------------
+                                 FstMar           
+                           (1)            (2)     
+--------------------------------------------------
+lag.age                 -0.016***      -0.016***  
+                         (0.004)        (0.003)   
+                                                  
+lag.coh                  2.156***      2.156***   
+                         (0.117)        (0.115)   
+                                                  
+lag.anykids1              0.094          0.094    
+                         (0.084)        (0.087)   
+                                                  
+lag.parentsHH1            -0.208        -0.208    
+                         (0.147)        (0.143)   
+                                                  
+lag.enrolled1           -1.467***      -1.467***  
+                         (0.457)        (0.453)   
+                                                  
+lag.qualifications2       -0.031        -0.031    
+                         (0.156)        (0.161)   
+                                                  
+lag.qualifications3       -0.126        -0.126    
+                         (0.107)        (0.109)   
+                                                  
+lag.qualifications4      -0.209**      -0.209**   
+                         (0.098)        (0.101)   
+                                                  
+lag.qualifications5       -0.199        -0.199    
+                         (0.135)        (0.147)   
+                                                  
+lag.london1              -0.274**      -0.274**   
+                         (0.117)        (0.120)   
+                                                  
+lag.hrwk1                0.260**        0.260**   
+                         (0.113)        (0.116)   
+                                                  
+lag.hrwk2                0.395***      0.395***   
+                         (0.097)        (0.098)   
+                                                  
+lag.hlghq1              -0.024***      -0.024***  
+                         (0.006)        (0.007)   
+                                                  
+lag.claimant_count_pc    0.092***      0.092***   
+                         (0.017)        (0.017)   
+                                                  
+Constant                -3.772***      -3.772***  
+                         (0.216)        (0.217)   
+                                                  
+--------------------------------------------------
+Observations              17,110        17,110    
+Log Likelihood          -3,265.561    -3,265.561  
+Akaike Inf. Crit.       6,561.123      6,561.123  
+==================================================
+Note:                  *p<0.1; **p<0.05; ***p<0.01
+          (Intercept)               lag.age               lag.coh          lag.anykids1        lag.parentsHH1 
+           0.02299877            0.98383192            8.63758155            1.09803050            0.81228582 
+        lag.enrolled1   lag.qualifications2   lag.qualifications3   lag.qualifications4   lag.qualifications5 
+           0.23054868            0.96926051            0.88131838            0.81139359            0.81930406 
+          lag.london1             lag.hrwk1             lag.hrwk2            lag.hlghq1 lag.claimant_count_pc 
+           0.76045261            1.29651261            1.48451918            0.97644583            1.09625882 
+                factor     AME     SE       z      p   lower   upper
+               lag.age -0.0008 0.0002 -4.6128 0.0000 -0.0012 -0.0005
+          lag.anykids1  0.0049 0.0044  1.0996 0.2715 -0.0038  0.0135
+ lag.claimant_count_pc  0.0047 0.0009  5.4674 0.0000  0.0030  0.0064
+               lag.coh  0.1105 0.0064 17.1748 0.0000  0.0979  0.1231
+         lag.enrolled1 -0.0441 0.0069 -6.4040 0.0000 -0.0576 -0.0306
+            lag.hlghq1 -0.0012 0.0003 -3.6946 0.0002 -0.0019 -0.0006
+             lag.hrwk1  0.0119 0.0052  2.2644 0.0235  0.0016  0.0222
+             lag.hrwk2  0.0191 0.0044  4.3149 0.0000  0.0104  0.0278
+           lag.london1 -0.0130 0.0051 -2.5417 0.0110 -0.0230 -0.0030
+        lag.parentsHH1 -0.0101 0.0067 -1.5065 0.1319 -0.0231  0.0030
+   lag.qualifications2 -0.0018 0.0087 -0.2015 0.8403 -0.0189  0.0154
+   lag.qualifications3 -0.0069 0.0059 -1.1690 0.2424 -0.0184  0.0047
+   lag.qualifications4 -0.0110 0.0054 -2.0529 0.0401 -0.0216 -0.0005
+   lag.qualifications5 -0.0106 0.0070 -1.4995 0.1338 -0.0244  0.0032
+                factor     AME     SE       z      p   lower   upper
+               lag.age -0.0008 0.0002 -4.6128 0.0000 -0.0012 -0.0005
+          lag.anykids1  0.0049 0.0044  1.0996 0.2715 -0.0038  0.0135
+ lag.claimant_count_pc  0.0047 0.0009  5.4674 0.0000  0.0030  0.0064
+               lag.coh  0.1105 0.0064 17.1748 0.0000  0.0979  0.1231
+         lag.enrolled1 -0.0441 0.0069 -6.4040 0.0000 -0.0576 -0.0306
+            lag.hlghq1 -0.0012 0.0003 -3.6946 0.0002 -0.0019 -0.0006
+             lag.hrwk1  0.0119 0.0052  2.2644 0.0235  0.0016  0.0222
+             lag.hrwk2  0.0191 0.0044  4.3149 0.0000  0.0104  0.0278
+           lag.london1 -0.0130 0.0051 -2.5417 0.0110 -0.0230 -0.0030
+        lag.parentsHH1 -0.0101 0.0067 -1.5065 0.1319 -0.0231  0.0030
+   lag.qualifications2 -0.0018 0.0087 -0.2015 0.8403 -0.0189  0.0154
+   lag.qualifications3 -0.0069 0.0059 -1.1690 0.2424 -0.0184  0.0047
+   lag.qualifications4 -0.0110 0.0054 -2.0529 0.0401 -0.0216 -0.0005
+   lag.qualifications5 -0.0106 0.0070 -1.4995 0.1338 -0.0244  0.0032
+ at(lag.age) lag.hlghq1
+       30.49  -0.001235
+     factor lag.age     AME     SE       z      p   lower   upper
+ lag.hlghq1 30.4914 -0.0012 0.0003 -3.6947 0.0002 -0.0019 -0.0006
+ at(lag.age) lag.hlghq1
+          15 -0.0014894
+          20 -0.0014040
+          26 -0.0013057
+          36 -0.0011520
+          98 -0.0004854
+     factor lag.age     AME     SE       z      p   lower   upper
+ lag.hlghq1 15.0000 -0.0015 0.0004 -3.6632 0.0002 -0.0023 -0.0007
+ lag.hlghq1 20.0000 -0.0014 0.0004 -3.6806 0.0002 -0.0022 -0.0007
+ lag.hlghq1 26.0000 -0.0013 0.0004 -3.6929 0.0002 -0.0020 -0.0006
+ lag.hlghq1 36.0000 -0.0012 0.0003 -3.6868 0.0002 -0.0018 -0.0005
+ lag.hlghq1 98.0000 -0.0005 0.0002 -2.8772 0.0040 -0.0008 -0.0002
+
+Call:
+glm(formula = FstMar ~ lag.age:lag.age + lag.coh + lag.anykids + 
+    lag.coh:lag.anykids + lag.parentsHH + lag.enrolled + lag.qualifications + 
+    lag.london + lag.hrwk + lag.hlghq1 + lag.claimant_count_pc, 
+    family = "binomial", data = df_female2)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-0.8092  -0.4564  -0.1924  -0.1523   3.3772  
+
+Coefficients:
+                       Estimate Std. Error z value Pr(>|z|)    
+(Intercept)           -3.877081   0.223766 -17.327  < 2e-16 ***
+lag.age               -0.016145   0.003536  -4.567 4.96e-06 ***
+lag.coh1               2.272834   0.132317  17.177  < 2e-16 ***
+lag.anykids1           0.534358   0.225904   2.365 0.018010 *  
+lag.parentsHH1        -0.143404   0.149614  -0.958 0.337815    
+lag.enrolled1         -1.441732   0.457632  -3.150 0.001630 ** 
+lag.qualifications2   -0.038186   0.155882  -0.245 0.806480    
+lag.qualifications3   -0.126190   0.107358  -1.175 0.239831    
+lag.qualifications4   -0.214117   0.098523  -2.173 0.029761 *  
+lag.qualifications5   -0.209361   0.134877  -1.552 0.120605    
+lag.london1           -0.276714   0.117065  -2.364 0.018090 *  
+lag.hrwk1              0.265022   0.112789   2.350 0.018787 *  
+lag.hrwk2              0.392560   0.097075   4.044 5.26e-05 ***
+lag.hlghq1            -0.023682   0.006435  -3.680 0.000233 ***
+lag.claimant_count_pc  0.092515   0.016766   5.518 3.43e-08 ***
+lag.coh1:lag.anykids1 -0.488505   0.235778  -2.072 0.038276 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 7597.5  on 17109  degrees of freedom
+Residual deviance: 6527.1  on 17094  degrees of freedom
+AIC: 6559.1
+
+Number of Fisher Scoring iterations: 7
+
+                factor     AME     SE       z      p   lower   upper
+               lag.age -0.0008 0.0002 -4.5527 0.0000 -0.0012 -0.0005
+          lag.anykids1  0.0076 0.0049  1.5512 0.1209 -0.0020  0.0172
+ lag.claimant_count_pc  0.0047 0.0009  5.4999 0.0000  0.0031  0.0064
+              lag.coh1  0.1036 0.0066 15.5803 0.0000  0.0905  0.1166
+         lag.enrolled1 -0.0437 0.0070 -6.2028 0.0000 -0.0575 -0.0299
+            lag.hlghq1 -0.0012 0.0003 -3.6735 0.0002 -0.0019 -0.0006
+             lag.hrwk1  0.0122 0.0053  2.3112 0.0208  0.0018  0.0225
+             lag.hrwk2  0.0190 0.0044  4.2736 0.0000  0.0103  0.0277
+           lag.london1 -0.0131 0.0051 -2.5696 0.0102 -0.0231 -0.0031
+        lag.parentsHH1 -0.0071 0.0071 -0.9990 0.3178 -0.0209  0.0068
+   lag.qualifications2 -0.0022 0.0087 -0.2466 0.8052 -0.0193  0.0150
+   lag.qualifications3 -0.0069 0.0059 -1.1668 0.2433 -0.0185  0.0047
+   lag.qualifications4 -0.0113 0.0054 -2.0997 0.0358 -0.0219 -0.0008
+   lag.qualifications5 -0.0111 0.0070 -1.5750 0.1152 -0.0249  0.0027
+
+Call:  glm(formula = FstMar ~ lag.age:lag.age + lag.coh + lag.anykids + 
+    lag.coh:lag.anykids + lag.parentsHH + lag.enrolled + lag.qualifications + 
+    lag.london + lag.hrwk + lag.hlghq1 + lag.claimant_count_pc, 
+    family = "binomial", data = df_female2)
+
+Coefficients:
+          (Intercept)                lag.age               lag.coh1           lag.anykids1         lag.parentsHH1  
+             -3.87708               -0.01615                2.27283                0.53436               -0.14340  
+        lag.enrolled1    lag.qualifications2    lag.qualifications3    lag.qualifications4    lag.qualifications5  
+             -1.44173               -0.03819               -0.12619               -0.21412               -0.20936  
+          lag.london1              lag.hrwk1              lag.hrwk2             lag.hlghq1  lag.claimant_count_pc  
+             -0.27671                0.26502                0.39256               -0.02368                0.09252  
+lag.coh1:lag.anykids1  
+             -0.48851  
+
+Degrees of Freedom: 17109 Total (i.e. Null);  17094 Residual
+Null Deviance:	    7597 
+Residual Deviance: 6527 	AIC: 6559
+ Factor w/ 2 levels "0","1": NA NA 1 NA 1 1 NA 1 1 1 ...
+ Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
+'data.frame':	17110 obs. of  15 variables:
+ $ pid                  : Factor w/ 16076 levels "10002251","10004491",..: 6 6 6 6 6 6 6 6 6 6 ...
+ $ wave                 : Factor w/ 18 levels "1","2","3","4",..: 6 7 8 9 10 11 12 13 15 16 ...
+ $ FstMar               : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ lag.age              : num  16 17 18 19 19 21 22 23 25 26 ...
+ $ lag.coh              : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
+ $ lag.anykids          : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 1 1 1 ...
+ $ lag.parentsHH        : Factor w/ 2 levels "0","1": 2 2 2 2 2 2 2 2 2 2 ...
+ $ lag.enrolled         : Factor w/ 2 levels "0","1": 2 1 1 1 1 1 1 1 1 1 ...
+ $ lag.qualifications   : Factor w/ 5 levels "1","2","3","4",..: 4 4 3 3 3 3 3 1 1 1 ...
+ $ lag.london           : Factor w/ 2 levels "0","1": 2 2 2 2 2 2 2 2 2 2 ...
+ $ lag.hrwk             : Factor w/ 3 levels "0","1","2": 1 1 1 1 1 1 1 3 3 3 ...
+ $ lag.hlghq1           : num  7 8 8 9 11 6 4 6 3 6 ...
+ $ lag.claimant_count_pc: num  8.4 7.4 5.4 4.7 3.9 3.2 3.1 3.3 3.1 3.2 ...
+ $ Female               : num  1 1 1 1 1 1 1 1 1 1 ...
+ $ keepif               : num  1 1 1 1 1 1 1 1 1 1 ...
+
+Call:  glm(formula = FstMar ~ lag.age:lag.age + lag.coh + lag.anykids + 
+    lag.coh:lag.anykids + lag.parentsHH + lag.enrolled + lag.qualifications + 
+    lag.london + lag.hrwk + lag.hlghq1 + lag.claimant_count_pc, 
+    family = "binomial", data = df_female2)
+
+Coefficients:
+          (Intercept)                lag.age               lag.coh1           lag.anykids1         lag.parentsHH1  
+             -3.87708               -0.01615                2.27283                0.53436               -0.14340  
+        lag.enrolled1    lag.qualifications2    lag.qualifications3    lag.qualifications4    lag.qualifications5  
+             -1.44173               -0.03819               -0.12619               -0.21412               -0.20936  
+          lag.london1              lag.hrwk1              lag.hrwk2             lag.hlghq1  lag.claimant_count_pc  
+             -0.27671                0.26502                0.39256               -0.02368                0.09252  
+lag.coh1:lag.anykids1  
+             -0.48851  
+
+Degrees of Freedom: 17109 Total (i.e. Null);  17094 Residual
+Null Deviance:	    7597 
+Residual Deviance: 6527 	AIC: 6559
+
+Call:
+glm(formula = FstMar ~ lag.age:lag.age + lag.coh + lag.anykids + 
+    lag.coh:lag.anykids + lag.parentsHH + lag.enrolled + lag.qualifications + 
+    lag.london + lag.hrwk + lag.hlghq1 + lag.claimant_count_pc, 
+    family = "binomial", data = df_female2)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-0.8092  -0.4564  -0.1924  -0.1523   3.3772  
+
+Coefficients:
+                       Estimate Std. Error z value Pr(>|z|)    
+(Intercept)           -3.877081   0.223766 -17.327  < 2e-16 ***
+lag.age               -0.016145   0.003536  -4.567 4.96e-06 ***
+lag.coh1               2.272834   0.132317  17.177  < 2e-16 ***
+lag.anykids1           0.534358   0.225904   2.365 0.018010 *  
+lag.parentsHH1        -0.143404   0.149614  -0.958 0.337815    
+lag.enrolled1         -1.441732   0.457632  -3.150 0.001630 ** 
+lag.qualifications2   -0.038186   0.155882  -0.245 0.806480    
+lag.qualifications3   -0.126190   0.107358  -1.175 0.239831    
+lag.qualifications4   -0.214117   0.098523  -2.173 0.029761 *  
+lag.qualifications5   -0.209361   0.134877  -1.552 0.120605    
+lag.london1           -0.276714   0.117065  -2.364 0.018090 *  
+lag.hrwk1              0.265022   0.112789   2.350 0.018787 *  
+lag.hrwk2              0.392560   0.097075   4.044 5.26e-05 ***
+lag.hlghq1            -0.023682   0.006435  -3.680 0.000233 ***
+lag.claimant_count_pc  0.092515   0.016766   5.518 3.43e-08 ***
+lag.coh1:lag.anykids1 -0.488505   0.235778  -2.072 0.038276 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 7597.5  on 17109  degrees of freedom
+Residual deviance: 6527.1  on 17094  degrees of freedom
+AIC: 6559.1
+
+Number of Fisher Scoring iterations: 7
+
+                factor     AME     SE       z      p   lower   upper
+               lag.age -0.0008 0.0002 -4.5527 0.0000 -0.0012 -0.0005
+          lag.anykids1  0.0076 0.0049  1.5512 0.1209 -0.0020  0.0172
+ lag.claimant_count_pc  0.0047 0.0009  5.4999 0.0000  0.0031  0.0064
+              lag.coh1  0.1036 0.0066 15.5803 0.0000  0.0905  0.1166
+         lag.enrolled1 -0.0437 0.0070 -6.2028 0.0000 -0.0575 -0.0299
+            lag.hlghq1 -0.0012 0.0003 -3.6735 0.0002 -0.0019 -0.0006
+             lag.hrwk1  0.0122 0.0053  2.3112 0.0208  0.0018  0.0225
+             lag.hrwk2  0.0190 0.0044  4.2736 0.0000  0.0103  0.0277
+           lag.london1 -0.0131 0.0051 -2.5696 0.0102 -0.0231 -0.0031
+        lag.parentsHH1 -0.0071 0.0071 -0.9990 0.3178 -0.0209  0.0068
+   lag.qualifications2 -0.0022 0.0087 -0.2466 0.8052 -0.0193  0.0150
+   lag.qualifications3 -0.0069 0.0059 -1.1668 0.2433 -0.0185  0.0047
+   lag.qualifications4 -0.0113 0.0054 -2.0997 0.0358 -0.0219 -0.0008
+   lag.qualifications5 -0.0111 0.0070 -1.5750 0.1152 -0.0249  0.0027
+   factor lag.anykids    AME     SE       z      p  lower  upper
+ lag.coh1      1.0000 0.0998 0.0093 10.7255 0.0000 0.0815 0.1180
+   
+       1    2
+  1 9145 1255
+  2 4167 2543
+
+Call:
+glm(formula = FstMar ~ lag.age:lag.age + lag.coh + lag.anykids + 
+    lag.coh:lag.anykids + lag.parentsHH + lag.enrolled + lag.qualifications + 
+    lag.london + lag.hrwk + lag.hlghq1 + lag.claimant_count_pc, 
+    family = "binomial", data = df_female2)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-0.8092  -0.4564  -0.1924  -0.1523   3.3772  
+
+Coefficients:
+                       Estimate Std. Error z value Pr(>|z|)    
+(Intercept)           -7.172778   0.646125 -11.101  < 2e-16 ***
+lag.age               -0.016145   0.003536  -4.567 4.96e-06 ***
+lag.coh                2.761339   0.321546   8.588  < 2e-16 ***
+lag.anykids            1.022863   0.453468   2.256 0.024093 *  
+lag.parentsHH1        -0.143404   0.149614  -0.958 0.337815    
+lag.enrolled1         -1.441732   0.457632  -3.150 0.001630 ** 
+lag.qualifications2   -0.038186   0.155882  -0.245 0.806480    
+lag.qualifications3   -0.126190   0.107358  -1.175 0.239831    
+lag.qualifications4   -0.214117   0.098523  -2.173 0.029761 *  
+lag.qualifications5   -0.209361   0.134877  -1.552 0.120605    
+lag.london1           -0.276714   0.117065  -2.364 0.018090 *  
+lag.hrwk1              0.265022   0.112789   2.350 0.018787 *  
+lag.hrwk2              0.392560   0.097075   4.044 5.26e-05 ***
+lag.hlghq1            -0.023682   0.006435  -3.680 0.000233 ***
+lag.claimant_count_pc  0.092515   0.016766   5.518 3.43e-08 ***
+lag.coh:lag.anykids   -0.488505   0.235778  -2.072 0.038276 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 7597.5  on 17109  degrees of freedom
+Residual deviance: 6527.1  on 17094  degrees of freedom
+AIC: 6559.1
+
+Number of Fisher Scoring iterations: 7
+
+                factor     AME     SE       z      p   lower   upper
+               lag.age -0.0008 0.0002 -4.5527 0.0000 -0.0012 -0.0005
+           lag.anykids  0.0066 0.0043  1.5152 0.1297 -0.0019  0.0151
+ lag.claimant_count_pc  0.0047 0.0009  5.4999 0.0000  0.0031  0.0064
+               lag.coh  0.1082 0.0064 16.9547 0.0000  0.0957  0.1207
+         lag.enrolled1 -0.0437 0.0070 -6.2028 0.0000 -0.0575 -0.0299
+            lag.hlghq1 -0.0012 0.0003 -3.6735 0.0002 -0.0019 -0.0006
+             lag.hrwk1  0.0122 0.0053  2.3112 0.0208  0.0018  0.0225
+             lag.hrwk2  0.0190 0.0044  4.2736 0.0000  0.0103  0.0277
+           lag.london1 -0.0131 0.0051 -2.5696 0.0102 -0.0231 -0.0031
+        lag.parentsHH1 -0.0071 0.0071 -0.9990 0.3178 -0.0209  0.0068
+   lag.qualifications2 -0.0022 0.0087 -0.2466 0.8052 -0.0193  0.0150
+   lag.qualifications3 -0.0069 0.0059 -1.1668 0.2433 -0.0185  0.0047
+   lag.qualifications4 -0.0113 0.0054 -2.0997 0.0358 -0.0219 -0.0008
+   lag.qualifications5 -0.0111 0.0070 -1.5750 0.1152 -0.0249  0.0027
+  factor lag.anykids    AME     SE       z      p  lower  upper
+ lag.coh      1.0000 0.1138 0.0077 14.8174 0.0000 0.0988 0.1289
+ at(lag.age) lag.hlghq1
+       30.49  -0.001235
+     factor lag.age     AME     SE       z      p   lower   upper
+ lag.hlghq1 30.4914 -0.0012 0.0003 -3.6947 0.0002 -0.0019 -0.0006
+ at(lag.age) lag.hlghq1
+          15 -0.0014894
+          20 -0.0014040
+          26 -0.0013057
+          36 -0.0011520
+          98 -0.0004854
+     factor lag.age     AME     SE       z      p   lower   upper
+ lag.hlghq1 15.0000 -0.0015 0.0004 -3.6632 0.0002 -0.0023 -0.0007
+ lag.hlghq1 20.0000 -0.0014 0.0004 -3.6806 0.0002 -0.0022 -0.0007
+ lag.hlghq1 26.0000 -0.0013 0.0004 -3.6929 0.0002 -0.0020 -0.0006
+ lag.hlghq1 36.0000 -0.0012 0.0003 -3.6868 0.0002 -0.0018 -0.0005
+ lag.hlghq1 98.0000 -0.0005 0.0002 -2.8772 0.0040 -0.0008 -0.0002
+
+Call:
+glm(formula = FstMar ~ lag.age:lag.age + lag.coh + lag.anykids + 
+    lag.coh:lag.anykids + lag.parentsHH + lag.enrolled + lag.qualifications + 
+    lag.london + lag.hrwk + lag.hlghq1 + lag.claimant_count_pc, 
+    family = "binomial", data = df_female2)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-0.8092  -0.4564  -0.1924  -0.1523   3.3772  
+
+Coefficients:
+                       Estimate Std. Error z value Pr(>|z|)    
+(Intercept)           -3.877081   0.223766 -17.327  < 2e-16 ***
+lag.age               -0.016145   0.003536  -4.567 4.96e-06 ***
+lag.coh1               2.272834   0.132317  17.177  < 2e-16 ***
+lag.anykids1           0.534358   0.225904   2.365 0.018010 *  
+lag.parentsHH1        -0.143404   0.149614  -0.958 0.337815    
+lag.enrolled1         -1.441732   0.457632  -3.150 0.001630 ** 
+lag.qualifications2   -0.038186   0.155882  -0.245 0.806480    
+lag.qualifications3   -0.126190   0.107358  -1.175 0.239831    
+lag.qualifications4   -0.214117   0.098523  -2.173 0.029761 *  
+lag.qualifications5   -0.209361   0.134877  -1.552 0.120605    
+lag.london1           -0.276714   0.117065  -2.364 0.018090 *  
+lag.hrwk1              0.265022   0.112789   2.350 0.018787 *  
+lag.hrwk2              0.392560   0.097075   4.044 5.26e-05 ***
+lag.hlghq1            -0.023682   0.006435  -3.680 0.000233 ***
+lag.claimant_count_pc  0.092515   0.016766   5.518 3.43e-08 ***
+lag.coh1:lag.anykids1 -0.488505   0.235778  -2.072 0.038276 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 7597.5  on 17109  degrees of freedom
+Residual deviance: 6527.1  on 17094  degrees of freedom
+AIC: 6559.1
+
+Number of Fisher Scoring iterations: 7
+
+                factor     AME     SE       z      p   lower   upper
+               lag.age -0.0008 0.0002 -4.5527 0.0000 -0.0012 -0.0005
+          lag.anykids1  0.0076 0.0049  1.5512 0.1209 -0.0020  0.0172
+ lag.claimant_count_pc  0.0047 0.0009  5.4999 0.0000  0.0031  0.0064
+              lag.coh1  0.1036 0.0066 15.5803 0.0000  0.0905  0.1166
+         lag.enrolled1 -0.0437 0.0070 -6.2028 0.0000 -0.0575 -0.0299
+            lag.hlghq1 -0.0012 0.0003 -3.6735 0.0002 -0.0019 -0.0006
+             lag.hrwk1  0.0122 0.0053  2.3112 0.0208  0.0018  0.0225
+             lag.hrwk2  0.0190 0.0044  4.2736 0.0000  0.0103  0.0277
+           lag.london1 -0.0131 0.0051 -2.5696 0.0102 -0.0231 -0.0031
+        lag.parentsHH1 -0.0071 0.0071 -0.9990 0.3178 -0.0209  0.0068
+   lag.qualifications2 -0.0022 0.0087 -0.2466 0.8052 -0.0193  0.0150
+   lag.qualifications3 -0.0069 0.0059 -1.1668 0.2433 -0.0185  0.0047
+   lag.qualifications4 -0.0113 0.0054 -2.0997 0.0358 -0.0219 -0.0008
+   lag.qualifications5 -0.0111 0.0070 -1.5750 0.1152 -0.0249  0.0027
+
+Call:
+glm(formula = FstMar ~ lag.age:lag.age + lag.coh + lag.anykids + 
+    lag.coh:lag.anykids + lag.parentsHH + lag.enrolled + lag.qualifications + 
+    lag.london + lag.hrwk + lag.hlghq1 + lag.claimant_count_pc, 
+    family = "binomial", data = df_female2)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-0.8092  -0.4564  -0.1924  -0.1523   3.3772  
+
+Coefficients:
+                       Estimate Std. Error z value Pr(>|z|)    
+(Intercept)           -3.877081   0.223766 -17.327  < 2e-16 ***
+lag.age               -0.016145   0.003536  -4.567 4.96e-06 ***
+lag.coh1               2.272834   0.132317  17.177  < 2e-16 ***
+lag.anykids1           0.534358   0.225904   2.365 0.018010 *  
+lag.parentsHH1        -0.143404   0.149614  -0.958 0.337815    
+lag.enrolled1         -1.441732   0.457632  -3.150 0.001630 ** 
+lag.qualifications2   -0.038186   0.155882  -0.245 0.806480    
+lag.qualifications3   -0.126190   0.107358  -1.175 0.239831    
+lag.qualifications4   -0.214117   0.098523  -2.173 0.029761 *  
+lag.qualifications5   -0.209361   0.134877  -1.552 0.120605    
+lag.london1           -0.276714   0.117065  -2.364 0.018090 *  
+lag.hrwk1              0.265022   0.112789   2.350 0.018787 *  
+lag.hrwk2              0.392560   0.097075   4.044 5.26e-05 ***
+lag.hlghq1            -0.023682   0.006435  -3.680 0.000233 ***
+lag.claimant_count_pc  0.092515   0.016766   5.518 3.43e-08 ***
+lag.coh1:lag.anykids1 -0.488505   0.235778  -2.072 0.038276 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 7597.5  on 17109  degrees of freedom
+Residual deviance: 6527.1  on 17094  degrees of freedom
+AIC: 6559.1
+
+Number of Fisher Scoring iterations: 7
+
+                factor     AME     SE       z      p   lower   upper
+               lag.age -0.0008 0.0002 -4.5527 0.0000 -0.0012 -0.0005
+          lag.anykids1  0.0076 0.0049  1.5512 0.1209 -0.0020  0.0172
+ lag.claimant_count_pc  0.0047 0.0009  5.4999 0.0000  0.0031  0.0064
+              lag.coh1  0.1036 0.0066 15.5803 0.0000  0.0905  0.1166
+         lag.enrolled1 -0.0437 0.0070 -6.2028 0.0000 -0.0575 -0.0299
+            lag.hlghq1 -0.0012 0.0003 -3.6735 0.0002 -0.0019 -0.0006
+             lag.hrwk1  0.0122 0.0053  2.3112 0.0208  0.0018  0.0225
+             lag.hrwk2  0.0190 0.0044  4.2736 0.0000  0.0103  0.0277
+           lag.london1 -0.0131 0.0051 -2.5696 0.0102 -0.0231 -0.0031
+        lag.parentsHH1 -0.0071 0.0071 -0.9990 0.3178 -0.0209  0.0068
+   lag.qualifications2 -0.0022 0.0087 -0.2466 0.8052 -0.0193  0.0150
+   lag.qualifications3 -0.0069 0.0059 -1.1668 0.2433 -0.0185  0.0047
+   lag.qualifications4 -0.0113 0.0054 -2.0997 0.0358 -0.0219 -0.0008
+   lag.qualifications5 -0.0111 0.0070 -1.5750 0.1152 -0.0249  0.0027
+   factor lag.anykids    AME     SE       z      p  lower  upper
+ lag.coh1      1.0000 0.0998 0.0093 10.7255 0.0000 0.0815 0.1180
+   
+       1    2
+  1 9145 1255
+  2 4167 2543
+
+Call:
+glm(formula = FstMar ~ lag.age:lag.age + lag.coh + lag.anykids + 
+    lag.coh:lag.anykids + lag.parentsHH + lag.enrolled + lag.qualifications + 
+    lag.london + lag.hrwk + lag.hlghq1 + lag.claimant_count_pc, 
+    family = "binomial", data = df_female2)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-0.8092  -0.4564  -0.1924  -0.1523   3.3772  
+
+Coefficients:
+                       Estimate Std. Error z value Pr(>|z|)    
+(Intercept)           -3.877081   0.223766 -17.327  < 2e-16 ***
+lag.age               -0.016145   0.003536  -4.567 4.96e-06 ***
+lag.coh                2.272834   0.132317  17.177  < 2e-16 ***
+lag.anykids            0.534358   0.225904   2.365 0.018010 *  
+lag.parentsHH1        -0.143404   0.149614  -0.958 0.337815    
+lag.enrolled1         -1.441732   0.457632  -3.150 0.001630 ** 
+lag.qualifications2   -0.038186   0.155882  -0.245 0.806480    
+lag.qualifications3   -0.126190   0.107358  -1.175 0.239831    
+lag.qualifications4   -0.214117   0.098523  -2.173 0.029761 *  
+lag.qualifications5   -0.209361   0.134877  -1.552 0.120605    
+lag.london1           -0.276714   0.117065  -2.364 0.018090 *  
+lag.hrwk1              0.265022   0.112789   2.350 0.018787 *  
+lag.hrwk2              0.392560   0.097075   4.044 5.26e-05 ***
+lag.hlghq1            -0.023682   0.006435  -3.680 0.000233 ***
+lag.claimant_count_pc  0.092515   0.016766   5.518 3.43e-08 ***
+lag.coh:lag.anykids   -0.488505   0.235778  -2.072 0.038276 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 7597.5  on 17109  degrees of freedom
+Residual deviance: 6527.1  on 17094  degrees of freedom
+AIC: 6559.1
+
+Number of Fisher Scoring iterations: 7
+
+  factor lag.anykids    AME     SE      z      p  lower  upper
+ lag.coh      1.0000 0.1015 0.0102 9.9676 0.0000 0.0815 0.1215
+  factor lag.anykids    AME     SE       z      p  lower  upper
+ lag.coh      0.0000 0.1138 0.0077 14.8173 0.0000 0.0988 0.1289
+
+Call:
+glm(formula = FstMar ~ lag.age:lag.age + lag.coh + lag.anykids + 
+    lag.coh:lag.anykids + lag.parentsHH + lag.enrolled + lag.qualifications + 
+    lag.london + lag.hrwk + lag.hlghq1 + lag.claimant_count_pc, 
+    family = "binomial", data = df_female2)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-0.8092  -0.4564  -0.1924  -0.1523   3.3772  
+
+Coefficients:
+                       Estimate Std. Error z value Pr(>|z|)    
+(Intercept)           -3.877081   0.223766 -17.327  < 2e-16 ***
+lag.age               -0.016145   0.003536  -4.567 4.96e-06 ***
+lag.coh                2.272834   0.132317  17.177  < 2e-16 ***
+lag.anykids            0.534358   0.225904   2.365 0.018010 *  
+lag.parentsHH1        -0.143404   0.149614  -0.958 0.337815    
+lag.enrolled1         -1.441732   0.457632  -3.150 0.001630 ** 
+lag.qualifications2   -0.038186   0.155882  -0.245 0.806480    
+lag.qualifications3   -0.126190   0.107358  -1.175 0.239831    
+lag.qualifications4   -0.214117   0.098523  -2.173 0.029761 *  
+lag.qualifications5   -0.209361   0.134877  -1.552 0.120605    
+lag.london1           -0.276714   0.117065  -2.364 0.018090 *  
+lag.hrwk1              0.265022   0.112789   2.350 0.018787 *  
+lag.hrwk2              0.392560   0.097075   4.044 5.26e-05 ***
+lag.hlghq1            -0.023682   0.006435  -3.680 0.000233 ***
+lag.claimant_count_pc  0.092515   0.016766   5.518 3.43e-08 ***
+lag.coh:lag.anykids   -0.488505   0.235778  -2.072 0.038276 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 7597.5  on 17109  degrees of freedom
+Residual deviance: 6527.1  on 17094  degrees of freedom
+AIC: 6559.1
+
+Number of Fisher Scoring iterations: 7
+
+                factor     AME     SE       z      p   lower   upper
+               lag.age -0.0008 0.0002 -4.5527 0.0000 -0.0012 -0.0005
+           lag.anykids  0.0066 0.0043  1.5152 0.1297 -0.0019  0.0151
+ lag.claimant_count_pc  0.0047 0.0009  5.4999 0.0000  0.0031  0.0064
+               lag.coh  0.1082 0.0064 16.9546 0.0000  0.0957  0.1207
+         lag.enrolled1 -0.0437 0.0070 -6.2028 0.0000 -0.0575 -0.0299
+            lag.hlghq1 -0.0012 0.0003 -3.6735 0.0002 -0.0019 -0.0006
+             lag.hrwk1  0.0122 0.0053  2.3112 0.0208  0.0018  0.0225
+             lag.hrwk2  0.0190 0.0044  4.2736 0.0000  0.0103  0.0277
+           lag.london1 -0.0131 0.0051 -2.5696 0.0102 -0.0231 -0.0031
+        lag.parentsHH1 -0.0071 0.0071 -0.9990 0.3178 -0.0209  0.0068
+   lag.qualifications2 -0.0022 0.0087 -0.2466 0.8052 -0.0193  0.0150
+   lag.qualifications3 -0.0069 0.0059 -1.1668 0.2433 -0.0185  0.0047
+   lag.qualifications4 -0.0113 0.0054 -2.0997 0.0358 -0.0219 -0.0008
+   lag.qualifications5 -0.0111 0.0070 -1.5750 0.1152 -0.0249  0.0027
+ at(lag.age) lag.hlghq1
+       30.49  -0.001235
+     factor lag.age     AME     SE       z      p   lower   upper
+ lag.hlghq1 30.4914 -0.0012 0.0003 -3.6947 0.0002 -0.0019 -0.0006
+ at(lag.age) lag.hlghq1
+          15 -0.0014894
+          20 -0.0014040
+          26 -0.0013057
+          36 -0.0011520
+          98 -0.0004854
+     factor lag.age     AME     SE       z      p   lower   upper
+ lag.hlghq1 15.0000 -0.0015 0.0004 -3.6632 0.0002 -0.0023 -0.0007
+ lag.hlghq1 20.0000 -0.0014 0.0004 -3.6806 0.0002 -0.0022 -0.0007
+ lag.hlghq1 26.0000 -0.0013 0.0004 -3.6929 0.0002 -0.0020 -0.0006
+ lag.hlghq1 36.0000 -0.0012 0.0003 -3.6868 0.0002 -0.0018 -0.0005
+ lag.hlghq1 98.0000 -0.0005 0.0002 -2.8772 0.0040 -0.0008 -0.0002
+
+Call:
+glm(formula = FstMar ~ lag.age:lag.age + lag.coh + lag.anykids + 
+    lag.coh:lag.anykids + lag.parentsHH + lag.enrolled + lag.qualifications + 
+    lag.london + lag.hrwk + lag.hlghq1 + lag.claimant_count_pc, 
+    family = "binomial", data = df_female2)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-0.8092  -0.4564  -0.1924  -0.1523   3.3772  
+
+Coefficients:
+                       Estimate Std. Error z value Pr(>|z|)    
+(Intercept)           -3.877081   0.223766 -17.327  < 2e-16 ***
+lag.age               -0.016145   0.003536  -4.567 4.96e-06 ***
+lag.coh1               2.272834   0.132317  17.177  < 2e-16 ***
+lag.anykids1           0.534358   0.225904   2.365 0.018010 *  
+lag.parentsHH1        -0.143404   0.149614  -0.958 0.337815    
+lag.enrolled1         -1.441732   0.457632  -3.150 0.001630 ** 
+lag.qualifications2   -0.038186   0.155882  -0.245 0.806480    
+lag.qualifications3   -0.126190   0.107358  -1.175 0.239831    
+lag.qualifications4   -0.214117   0.098523  -2.173 0.029761 *  
+lag.qualifications5   -0.209361   0.134877  -1.552 0.120605    
+lag.london1           -0.276714   0.117065  -2.364 0.018090 *  
+lag.hrwk1              0.265022   0.112789   2.350 0.018787 *  
+lag.hrwk2              0.392560   0.097075   4.044 5.26e-05 ***
+lag.hlghq1            -0.023682   0.006435  -3.680 0.000233 ***
+lag.claimant_count_pc  0.092515   0.016766   5.518 3.43e-08 ***
+lag.coh1:lag.anykids1 -0.488505   0.235778  -2.072 0.038276 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 7597.5  on 17109  degrees of freedom
+Residual deviance: 6527.1  on 17094  degrees of freedom
+AIC: 6559.1
+
+Number of Fisher Scoring iterations: 7
+
+                factor     AME     SE       z      p   lower   upper
+               lag.age -0.0008 0.0002 -4.5527 0.0000 -0.0012 -0.0005
+          lag.anykids1  0.0076 0.0049  1.5512 0.1209 -0.0020  0.0172
+ lag.claimant_count_pc  0.0047 0.0009  5.4999 0.0000  0.0031  0.0064
+              lag.coh1  0.1036 0.0066 15.5803 0.0000  0.0905  0.1166
+         lag.enrolled1 -0.0437 0.0070 -6.2028 0.0000 -0.0575 -0.0299
+            lag.hlghq1 -0.0012 0.0003 -3.6735 0.0002 -0.0019 -0.0006
+             lag.hrwk1  0.0122 0.0053  2.3112 0.0208  0.0018  0.0225
+             lag.hrwk2  0.0190 0.0044  4.2736 0.0000  0.0103  0.0277
+           lag.london1 -0.0131 0.0051 -2.5696 0.0102 -0.0231 -0.0031
+        lag.parentsHH1 -0.0071 0.0071 -0.9990 0.3178 -0.0209  0.0068
+   lag.qualifications2 -0.0022 0.0087 -0.2466 0.8052 -0.0193  0.0150
+   lag.qualifications3 -0.0069 0.0059 -1.1668 0.2433 -0.0185  0.0047
+   lag.qualifications4 -0.0113 0.0054 -2.0997 0.0358 -0.0219 -0.0008
+   lag.qualifications5 -0.0111 0.0070 -1.5750 0.1152 -0.0249  0.0027
+   factor lag.anykids    AME     SE       z      p  lower  upper
+ lag.coh1      1.0000 0.0998 0.0093 10.7255 0.0000 0.0815 0.1180
+   factor lag.anykids    AME     SE       z      p  lower  upper
+ lag.coh1      1.0000 0.1045 0.0073 14.3113 0.0000 0.0902 0.1189
+   
+       1    2
+  1 9145 1255
+  2 4167 2543
+
+Call:
+glm(formula = FstMar ~ lag.age:lag.age + lag.coh + lag.anykids + 
+    lag.coh:lag.anykids + lag.parentsHH + lag.enrolled + lag.qualifications + 
+    lag.london + lag.hrwk + lag.hlghq1 + lag.claimant_count_pc, 
+    family = "binomial", data = df_female2)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-0.8092  -0.4564  -0.1924  -0.1523   3.3772  
+
+Coefficients:
+                       Estimate Std. Error z value Pr(>|z|)    
+(Intercept)           -3.877081   0.223766 -17.327  < 2e-16 ***
+lag.age               -0.016145   0.003536  -4.567 4.96e-06 ***
+lag.coh                2.272834   0.132317  17.177  < 2e-16 ***
+lag.anykids            0.534358   0.225904   2.365 0.018010 *  
+lag.parentsHH1        -0.143404   0.149614  -0.958 0.337815    
+lag.enrolled1         -1.441732   0.457632  -3.150 0.001630 ** 
+lag.qualifications2   -0.038186   0.155882  -0.245 0.806480    
+lag.qualifications3   -0.126190   0.107358  -1.175 0.239831    
+lag.qualifications4   -0.214117   0.098523  -2.173 0.029761 *  
+lag.qualifications5   -0.209361   0.134877  -1.552 0.120605    
+lag.london1           -0.276714   0.117065  -2.364 0.018090 *  
+lag.hrwk1              0.265022   0.112789   2.350 0.018787 *  
+lag.hrwk2              0.392560   0.097075   4.044 5.26e-05 ***
+lag.hlghq1            -0.023682   0.006435  -3.680 0.000233 ***
+lag.claimant_count_pc  0.092515   0.016766   5.518 3.43e-08 ***
+lag.coh:lag.anykids   -0.488505   0.235778  -2.072 0.038276 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 7597.5  on 17109  degrees of freedom
+Residual deviance: 6527.1  on 17094  degrees of freedom
+AIC: 6559.1
+
+Number of Fisher Scoring iterations: 7
+
+  factor lag.anykids    AME     SE      z      p  lower  upper
+ lag.coh      1.0000 0.1015 0.0102 9.9676 0.0000 0.0815 0.1215
+  factor lag.anykids    AME     SE       z      p  lower  upper
+ lag.coh      0.0000 0.1138 0.0077 14.8173 0.0000 0.0988 0.1289
+      factor lag.coh    AME     SE      z      p   lower  upper
+ lag.anykids  1.0000 0.0047 0.0090 0.5279 0.5976 -0.0128 0.0223
+      factor lag.coh    AME     SE      z      p  lower  upper
+ lag.anykids  0.0000 0.0083 0.0037 2.2239 0.0262 0.0010 0.0157

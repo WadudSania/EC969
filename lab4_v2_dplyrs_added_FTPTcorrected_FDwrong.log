@@ -1,0 +1,20 @@
+Error in install.packages : Updating loaded packages
+Warning in install.packages :
+  packages ‘tidyverse’, ‘htmltools’, ‘naniar’, ‘haven’, ‘survey’, ‘labelled’, ‘Rmisc’, ‘ggplot2’, ‘htmltools’ are in use and will not be installed
+package ‘miscTools’ successfully unpacked and MD5 sums checked
+package ‘rbibutils’ successfully unpacked and MD5 sums checked
+package ‘bdsmatrix’ successfully unpacked and MD5 sums checked
+package ‘collapse’ successfully unpacked and MD5 sums checked
+package ‘maxLik’ successfully unpacked and MD5 sums checked
+package ‘Rdpack’ successfully unpacked and MD5 sums checked
+package ‘expss’ successfully unpacked and MD5 sums checked
+package ‘AER’ successfully unpacked and MD5 sums checked
+package ‘estimatr’ successfully unpacked and MD5 sums checked
+package ‘margins’ successfully unpacked and MD5 sums checked
+package ‘ggeffects’ successfully unpacked and MD5 sums checked
+package ‘ivreg’ successfully unpacked and MD5 sums checked
+package ‘plm’ successfully unpacked and MD5 sums checked
+package ‘stargazer’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\sw22905\AppData\Local\Temp\RtmpaKqelg\downloaded_packages
