@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.11)  11 JUL 2023 15:03
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.11)  13 JUL 2023 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -814,37 +814,39 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 149.
+(Font)              using `TU/ptm/m/n' instead on input line 150.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 151.
+(Font)              using `TU/ptm/m/n' instead on input line 152.
 
 [1
 
 ]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.4pt on input line 192.
+(Font)              scaled to size 8.4pt on input line 193.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 192.
+(Font)              scaled to size 6.0pt on input line 193.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.0011pt on input line 192.
+(Font)              scaled to size 12.0011pt on input line 193.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.40076pt on input line 192.
+(Font)              scaled to size 8.40076pt on input line 193.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 192.
+(Font)              scaled to size 6.00055pt on input line 193.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 192.
+(Font)              scaled to size 11.99872pt on input line 193.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.3991pt on input line 192.
+(Font)              scaled to size 8.3991pt on input line 193.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 192.
+(Font)              scaled to size 5.99936pt on input line 193.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 192.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 192.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 192.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
+File: M:/EC452/EC452 Lab/lab1figure/installrstudio.png Graphic file (type bmp)
+<M:/EC452/EC452 Lab/lab1figure/installrstudio.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -853,6 +855,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
+File: M:/EC452/EC452 Lab/lab1figure/openr.png Graphic file (type bmp)
+<M:/EC452/EC452 Lab/lab1figure/openr.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -861,6 +865,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
+File: M:/EC452/EC452 Lab/lab1figure/existingdirectory.png Graphic file (type bmp)
+<M:/EC452/EC452 Lab/lab1figure/existingdirectory.png>
+File: M:/EC452/EC452 Lab/lab1figure/newscript.png Graphic file (type bmp)
+<M:/EC452/EC452 Lab/lab1figure/newscript.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -869,12 +877,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-Underfull \hbox (badness 2790) in paragraph at lines 339--342
-[]\TU/ptm/m/it/12 Object names are case-sensitive (meaning that Dataset_A is different from
- []
-
-File: M:/EC969/R/EC969/r_data_structures.png Graphic file (type bmp)
-<M:/EC969/R/EC969/r_data_structures.png>
+File: M:/EC452/EC452 Lab/lab1figure/viewrstudio.png Graphic file (type bmp)
+<M:/EC452/EC452 Lab/lab1figure/viewrstudio.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -891,6 +895,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6]
+File: M:/EC452/EC452 Lab/lab1figure/command.png Graphic file (type bmp)
+<M:/EC452/EC452 Lab/lab1figure/command.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -899,12 +905,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 498.
+Underfull \hbox (badness 2790) in paragraph at lines 404--407
+[]\TU/ptm/m/it/12 Object names are case-sensitive (meaning that Dataset_A is different from
+ []
 
-LaTeX Font Warning: Font shape `TU/lmtt/bx/it' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 498.
-
+File: M:/EC969/R/EC969/r_data_structures.png Graphic file (type bmp)
+<M:/EC969/R/EC969/r_data_structures.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -937,8 +943,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11]
-File: ec981rbasics_files/figure-latex/unnamed-chunk-11-1.pdf Graphic file (type pdf)
-<use ec981rbasics_files/figure-latex/unnamed-chunk-11-1.pdf>
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 557.
+
+LaTeX Font Warning: Font shape `TU/lmtt/bx/it' in size <12> not available
+(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 557.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -947,8 +957,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12]
-File: ec981rbasics_files/figure-latex/unnamed-chunk-11-2.pdf Graphic file (type pdf)
-<use ec981rbasics_files/figure-latex/unnamed-chunk-11-2.pdf>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -973,6 +981,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
+File: ec981rbasics_files/figure-latex/unnamed-chunk-11-1.pdf Graphic file (type pdf)
+<use ec981rbasics_files/figure-latex/unnamed-chunk-11-1.pdf>
+File: ec981rbasics_files/figure-latex/unnamed-chunk-11-2.pdf Graphic file (type pdf)
+<use ec981rbasics_files/figure-latex/unnamed-chunk-11-2.pdf>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -981,8 +993,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16]
-File: ec981rbasics_files/figure-latex/unnamed-chunk-17-1.pdf Graphic file (type pdf)
-<use ec981rbasics_files/figure-latex/unnamed-chunk-17-1.pdf>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1006,7 +1016,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19] (./ec981rbasics.aux)
+[19]
+File: ec981rbasics_files/figure-latex/unnamed-chunk-17-1.pdf Graphic file (type pdf)
+<use ec981rbasics_files/figure-latex/unnamed-chunk-17-1.pdf>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22] (./ec981rbasics.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -1015,15 +1051,15 @@ L3 programming layer <2023-06-30>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `ec981rbasics.out' has not changed.
-(rerunfilecheck)             Checksum: AFA6ECD76F2AF5AAC3C88240F39A1654;6204.
+(rerunfilecheck)             Checksum: 1CD0800FF9B8733F801C4D69B00A985B;6997.
  ) 
 Here is how much of TeX's memory you used:
- 18670 strings out of 477888
- 339798 string characters out of 5821660
- 1925869 words of memory out of 5000000
- 39330 multiletter control sequences out of 15000+600000
+ 18731 strings out of 477888
+ 342486 string characters out of 5821660
+ 1922869 words of memory out of 5000000
+ 39384 multiletter control sequences out of 15000+600000
  571936 words of font info for 99 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 90i,11n,120p,517b,476s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,120p,517b,474s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ec981rbasics.pdf (19 pages).
+Output written on ec981rbasics.pdf (22 pages).

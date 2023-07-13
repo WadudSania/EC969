@@ -23,25 +23,23 @@ header-includes:
  - \usepackage{amssymb}
  - \usepackage{mathptmx}
  - \usepackage{amsmath}
-    
 ---
 
-
+```{=tex}
 \fancyhead[L]{Department of Economics, University of Essex}
 \fancyhead[R]{\textbf{EC981}}
 \fancyfoot[L]{sania.wadud@essex.ac.uk}
 \renewcommand{\footrulewidth}{0.4pt}
 \fancyfoot[C]{}
 \fancyfoot[R]{\thepage}
-
-
+```
 ```{r setup, include=FALSE}
 
 knitr::opts_chunk$set(echo = TRUE,tidy.opts=list(width.cutoff=60), tidy=TRUE)
 
 ```
 
-In this session, we will learn some R basics that will be hel.
+In this session, we will learn some R basics that will be help you to do analysis for your dissertation.
 
 # Key Terms
 
@@ -55,22 +53,21 @@ In this session, we will learn some R basics that will be hel.
 
 **Scripts** - A script is the document file that hold your commands.
 
-
 # Resources for learning
 
 ## Resources within RStudio
 
-* Help documentation
+-   Help documentation
 
-* Interactive tutorials
+-   Interactive tutorials
 
-    - learnr R package
-    
-    - swirl
-    
+    -   learnr R package
+
+    -   swirl
+
 ## Cheatsheets
 
-There are many PDF “cheatsheets” available on the RStudio website, for example:
+There are many PDF "cheatsheets" available on the RStudio website, for example:
 
 -   Factors with $forcats$ package
 
@@ -84,7 +81,7 @@ There are many PDF “cheatsheets” available on the RStudio website, for examp
 
 -   Data transformation cheatsheet with $dplyr$ package
 
--   R Markdown (to create documents like PDF, Word, Powerpoint…)
+-   R Markdown (to create documents like PDF, Word, Powerpoint...)
 
 -   Shiny (to build interactive web apps)
 
@@ -98,13 +95,25 @@ There are many PDF “cheatsheets” available on the RStudio website, for examp
 
 # Installation
 
-We have shown that in other class. 
+# Opening Rstudio via Essex Hub
 
-## How to update R and 
+Open your web browser and google "Essex Software Hub". Open the first link in the list ( <https://software.essex.ac.uk/>) (click "yes"/"open" to all the validation questions if there are any). Then locate RStudio and open 'RStudio (runs R.4.3.1)'.
+
+![](M:\EC452\EC452 Lab\lab1figure\installrstudio.png){width=80%}
+
+# Setting up RStudio
+
+## The RStudio interface at the beginning
+
+When opening R Studio, you will be presented with the following screen.
+
+![](M:\EC452\EC452 Lab\lab1figure\openr.png){width=80%}
+
+## How to update R
 
 Version- $sessionInfo()$
 
-update- $installr::updateR()$ or “Help” -> “Check for Updates”
+update- $installr::updateR()$ or "Help" -\> "Check for Updates"
 
 ## Other software you may need to install
 
@@ -116,6 +125,21 @@ update- $installr::updateR()$ or “Help” -> “Check for Updates”
 
 -   phantomjs (for saving still images of animated networks, such as transmission chains)
 
+# Start a new project in R.
+
+Creating a New Directory makes a default working directory and a logical place to store all
+associated files such as raw data spreadsheets.
+
+![](M:\EC452\EC452 Lab\lab1figure\existingdirectory.png){width=50%}
+
+Any associated excel documents or text files can be saved into this new folder and easily accessed from within R. You can then perform data analysis or produce visualizations with your imported data.
+
+## Creating a new script in R
+
+To create a new script in R, go to File > New File > R Script. On creating a new R script, the script panel will open. A script allows you to write your code/script and save your commands to be reopened later.
+
+![](M:\EC452\EC452 Lab\lab1figure\newscript.png){width=50%}
+
 # RStudio orientation
 
 -   The Source Pane
@@ -124,15 +148,29 @@ update- $installr::updateR()$ or “Help” -> “Check for Updates”
 
 -   The Environment Pane
 
--   Plots, Viewer, Packages, and Help Pane 
+-   Plots, Viewer, Packages, and Help Pane
+
+Take a moment to look at the way RStudio organises the screen.
+
+![](M:\EC452\EC452 Lab\lab1figure\viewrstudio.png)
+
+**A** The top-left *Script* window keeps the history of the commands you type. This window is known as Source Pane. 
+
+**B** The top-right *Environment* window shows an organised list of your created variables, History tab provides a list of commands that have been previously run.
+
+**C** The bottom-left *Console* window shows commands to run and the results output.
+
+**D** In the bottom-right window, *File* tab shows the computer's file system, *Plot* tab shows your graphs and plots, *Packages* tab shows R packages installed or available to install, *Help tab* provides help and documentation for all commands.
 
 # Basic commands in RStudio
 
 ## Run a command
 
-Commands in R can be entered directly into the console. Entering 3 or more characters of a command into the console or a script will open the suggested command menu. The command menu suggests commands or the names of variables you have intended to type, alongside a description and suggested use of the command. 
+Commands in R can be entered directly into the console (**C**). Entering 3 or more characters of a command into the console or a script will open the suggested command menu. The command menu suggests commands or the names of variables you have intended to type, alongside a description and suggested use of the command.
 
-After completing a command and pressing $Enter$, R will immediately run the code, print the output and move to a new line. Using the $\uparrow$ key will repeat the last command entered into the console. 
+![](M:\EC452\EC452 Lab\lab1figure\command.png)
+
+After completing a command and pressing $Enter$, R will immediately run the code, print the output and move to a new line. Using the $\uparrow$ key will repeat the last command entered into the console.
 
 ## Using R Script
 
@@ -142,13 +180,13 @@ To run the script one line at a time, navigate the cursor to the appropriate lin
 
 ## Saving script in R
 
-To save the script click File > Save and then enter the file name 'rbasics' in the project folder. This will save your script as 'rbasics.R'.
+To save the script click File \> Save and then enter the file name 'rbasics' in the project folder. This will save your script as 'rbasics.R'.
 
 # Objects
 
-Everything in R is an object, and R is an “object-oriented” language. These sections will explain:
+Everything in R is an object, and R is an "object-oriented" language. These sections will explain:
 
--   How to create objects (<-)
+-   How to create objects (\<-)
 
 -   Types of objects (e.g. data frames, vectors..)
 
@@ -158,21 +196,21 @@ Everything in R is an object, and R is an “object-oriented” language. These 
 
 ## Defining Objects
 
-Defining objects (<-) "is defined as"
+Defining objects (\<-) "is defined as"
 
-$object_name <- value$ 
+$object\_name <- value$
 
 Equals signs $=$
 
 You will also see equals signs in R code:
 
--   A double equals sign $==$ between two objects or values asks a logical question: “is this equal to that?”.
+-   A double equals sign $==$ between two objects or values asks a logical question: "is this equal to that?".
 
--   You can use a single equals sign = in place of <- to create and define objects, but this is discouraged.
+-   You can use a single equals sign = in place of \<- to create and define objects, but this is discouraged.
 
 *A quick note on naming of objects*
 
--   Object names must not contain spaces, but you should use underscore (_) or a period (.) instead of a space.
+-   Object names must not contain spaces, but you should use underscore (\_) or a period (.) instead of a space.
 
 -   Object names are case-sensitive (meaning that Dataset_A is different from dataset_A).
 
@@ -180,22 +218,21 @@ You will also see equals signs in R code:
 
 ## Object structure
 
-![data structure](M:\EC969\R\EC969\r_data_structures.png)
-Source: Internet
+![data structure](M:\EC969\R\EC969\r_data_structures.png) Source: Internet
 
 ## Object Classes
 
-| **Class** 	| **Examples** 	|
-|---	|---	|
-| Character 	| “Character objects are in quotation marks” 	|
-| Integer 	| -6, 12, or 2023 	|
-| Numeric 	| 23.5 or 16	|
-| Factor 	| An variable of economic status with ordered values 	|
-| Date 	| 2018-06-12 or 15/3/1956 or Wed 6 Jan 1988 	|
-| Logical 	| TRUE or FALSE 	|
-| data.frame 	| The example AJS dataset 	|
-| tibble 	| Any data frame, list, or matrix can be converted to a tibble with as_tibble() 	|
-| list 	| A list could hold a single number, and a dataframe, and a vector, and even another list within it! 	|
+| **Class**  | **Examples**                                                                                       |
+|------------------------------------|------------------------------------|
+| Character  | "Character objects are in quotation marks"                                                         |
+| Integer    | -6, 12, or 2023                                                                                    |
+| Numeric    | 23.5 or 16                                                                                         |
+| Factor     | An variable of economic status with ordered values                                                 |
+| Date       | 2018-06-12 or 15/3/1956 or Wed 6 Jan 1988                                                          |
+| Logical    | TRUE or FALSE                                                                                      |
+| data.frame | The example AJS dataset                                                                            |
+| tibble     | Any data frame, list, or matrix can be converted to a tibble with as_tibble()                      |
+| list       | A list could hold a single number, and a dataframe, and a vector, and even another list within it! |
 
 # Operators
 
@@ -205,9 +242,9 @@ Source: Internet
 |---------------------|------------------|
 | addition            | 2 + 3            |
 | subtraction         | 2 - 3            |
-| multiplication      | 2 * 3            |
+| multiplication      | 2 \* 3           |
 | division            | 30 / 5           |
-| exponent            | 2^3              |
+| exponent            | 2\^3             |
 | order of operations | ( )              |
 
 ## Mathematical functions
@@ -225,7 +262,6 @@ Source: Internet
 | log base 10        | log10(x)                              |
 | log base 2         | log2(x)                               |
 
-
 ## Using %in%
 
 ```{r , echo = TRUE, eval = FALSE, warning=FALSE}
@@ -242,13 +278,9 @@ vector <- c("a", "b", "c", "d","e")
 
 ```
 
-# Start a new project in R
-
-When starting to work with a new dataset, a new project should be created.
-
 # Working directory
 
-Getting working directory
+To know the current working directory use the following command:
 
 ```{r , echo = TRUE, eval = FALSE, warning=FALSE}
 
@@ -283,9 +315,9 @@ library(stargazer)
 
 ## Importing an excel file into R
 
-To import the data from an excel file, use the command $read\_excel()$. 
+To import the data from an excel file, use the command $read\_excel()$.
 
-``` {r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE, linewidth=55}
+```{r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE, linewidth=55}
 
 # you can use package wooldridge to get data as well. 
 datadf <- read_excel("M:/EC969/R/EC969/wages.xlsx",sheet = "WAGE2") 
@@ -302,11 +334,11 @@ data(food, package='PoEdata')
 
 ```
 
-The data is now imported into R. 
+The data is now imported into R.
 
 # Viewing imported data
 
-To view all the data, you can use $View()$ command to view data/variables. 
+To view all the data, you can use $View()$ command to view data/variables.
 
 ```{r , echo = TRUE, eval = FALSE, warning=FALSE}
 
@@ -316,9 +348,9 @@ View(Fatalities)
 
 ```
 
-To view a particular part of the data set, for example, you can use command 
+To view a particular part of the data set, for example, you can use command
 
-``` {r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE}
+```{r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE}
 
 # to view wage column
 View(datadf$wage)
@@ -333,9 +365,9 @@ View(datadf[1:10,])
 
 ```
 
-To see the variables in console, you can use $print()$ 
+To see the variables in console, you can use $print()$
 
-``` {r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE}
+```{r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE}
 
 # to view first 10 rows of wage to IQ in console
 
@@ -347,7 +379,7 @@ print(datadf[1:10,1:3])
 
 The common variable types and data types that you will be working with in R is as follows:
 
-``` {r, echo = TRUE, eval = FALSE, warning=FALSE, message=FALSE}
+```{r, echo = TRUE, eval = FALSE, warning=FALSE, message=FALSE}
 
 str(datadf)
 str(Fatalities)
@@ -357,9 +389,9 @@ str(food)
 
 # Summary/Descriptive statistics
 
-It is important to know the summary and descriptive statistics of the data. You can do this using the following commands. $summary()$ command provide details of minimum, 1st quantile, median, mean, 3rd quantile and maximum of variables. $psych::describe()$ provide 
+It is important to know the summary and descriptive statistics of the data. You can do this using the following commands. $summary()$ command provide details of minimum, 1st quantile, median, mean, 3rd quantile and maximum of variables. $psych::describe()$ provide
 
-``` {r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
+```{r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
 
 # to view summary of the data
 summary(datadf) 
@@ -375,7 +407,7 @@ psych::describe(datadf)
 
 Looking at the data is a good practice. To do a scatter plot, for instance $wage$ versus $exper$, you can use the command
 
-``` {r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
+```{r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
 
 # you can change shape, color, size of geom point
 ggplot(datadf,aes(x=exper,y=wage))+ geom_point(color="darkgreen") 
@@ -390,27 +422,25 @@ plot(food$income, food$food_exp,
 
 ```
 
-
 ## Removing variables from your data
 
-Sometimes you might want to remove variables from your dataset. There various ways to do that. 
-For example, to remove the variables $south$ and $urban$ we could use,
+Sometimes you might want to remove variables from your dataset. There various ways to do that. For example, to remove the variables $south$ and $urban$ we could use,
 
-1.    **Delete column by name**
+1.  **Delete column by name**
 
 The most easiest way to drop columns is by using $subset()$ function. In the code below, we are telling R to drop variables $south$ and $urban$. The $-$ sign indicates dropping variables. Make sure the variable names would NOT be specified in quotes when using $subset()$ function.
 
-``` {r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
+```{r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
 
 dfsthur <- subset(datadf, select = -c(south,urban))
 
 ```
 
-2.    **Drop columns by column index numbers**
+2.  **Drop columns by column index numbers**
 
 It's easier to remove variables by their position number. In the following code, we want to drop variables that are positioned at ninth column and tenth columns. The $-$ sign is to drop variables.
 
-``` {r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
+```{r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
 
 dfsthur <- datadf[,-c(9,10)]
 
@@ -418,7 +448,7 @@ dfsthur <- datadf[,-c(9,10)]
 
 Alternatively, to remove all variables other than $wage$ we could use any of the following commands
 
-``` {r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
+```{r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
 
 dfwage <- datadf$wage # using $
 
@@ -430,7 +460,7 @@ dfwage <- datadf[,1] # column index
 
 Also, if a variable already exists and you want to redefine its content, you can change the right side of the function to change the content.
 
-3.    **Deleting object**
+3.  **Deleting object**
 
 If you want to delete a object you have created, you can use the function $rm()$. For removing all the object use-$rm(list=ls())$.
 
@@ -438,8 +468,7 @@ If you want to delete a object you have created, you can use the function $rm()$
 
 $$food\_exp = \beta_1\,+\beta_2\,income + u$$
 
-
-``` {r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
+```{r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
 
 # Running linear regression
 mod1 <- lm(food_exp ~ income, data = food)
@@ -457,15 +486,16 @@ smod1
 
 ```
 
-
 ## Using a fancy table
 
-``` {r, echo = TRUE, eval = FALSE, warning=FALSE, message=FALSE }
+```{r, echo = TRUE, eval = FALSE, warning=FALSE, message=FALSE }
 
 # Using fancy table style 
 stargazer::stargazer(mod1,type='latex')
 
 ```
+
+```{=tex}
 \begin{table}[!htbp] \centering 
   \caption{} 
   \label{} 
@@ -492,11 +522,11 @@ F Statistic & 23.789$^{***}$ (df = 1; 38) \\
 \hline \\[-1.8ex] 
 \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
 \end{tabular} 
-\end{table} 
-
+\end{table}
+```
 ## Plotting with coefficients
 
-``` {r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
+```{r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
 
 plot(food$income, food$food_exp, 
      xlab="weekly income in $100", 
@@ -506,10 +536,9 @@ abline(b1,b2)
 
 ```
 
-
 ## Getting name/coefficients from estimated model
 
-``` {r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
+```{r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
 # list of names
 names(mod1)
 names(smod1)
@@ -520,12 +549,11 @@ smod1$coefficients
 
 ```
 
-
 # Prediction with the Linear Regression Model
 
 $$\widehat{food\_exp}= 83.416002 + 10.209643∗20 = 287.608861$$
 
-``` {r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
+```{r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
 
 mod1 <- lm(food_exp~income, data=food)
 newx <- data.frame(income = c(20, 25, 27))
@@ -535,14 +563,12 @@ y_hat
 
 ```
 
-
 # Estimated Variances and Covariance of Regression Coefficients
 
-``` {r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
+```{r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
 
 varb1 <- vcov(mod1)[1, 1]; varb1
 varb2 <- vcov(mod1)[2, 2]; varb2
 covb1b2 <- vcov(mod1)[1,2]; covb1b2
 
 ```
-
