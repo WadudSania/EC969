@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.11)  13 JUL 2023 13:45
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.11)  17 JUL 2023 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -480,49 +480,56 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 129.
-LaTeX Font Info:    Trying to load font information for TU+ptm on input line 135.
-LaTeX Font Info:    No file TUptm.fd. on input line 135.
+LaTeX Font Info:    Trying to load font information for TU+ptm on input line 142.
+LaTeX Font Info:    No file TUptm.fd. on input line 142.
 
 LaTeX Font Warning: Font shape `TU/ptm/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 135.
+(Font)              using `TU/lmr/m/n' instead on input line 142.
 
-(./ec981rbasics.aux)
+(./ec981rbasics.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+)
 \openout1 = `ec981rbasics.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/ztmcm/m/n --> TU/ptm/m/n on input line 135.
+(Font)                  OT1/ztmcm/m/n --> TU/ptm/m/n on input line 142.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/ptm/m/it --> TU/ptm/m/it on input line 135.
+(Font)                  OT1/ptm/m/it --> TU/ptm/m/it on input line 142.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/ptm/bx/n --> TU/ptm/b/n on input line 135.
+(Font)                  OT1/ptm/bx/n --> TU/ptm/b/n on input line 142.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 135.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 142.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 135.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 142.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 135.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 142.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 135.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 142.
 
 Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
 
@@ -548,7 +555,7 @@ Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 135.
+(Font)              scaled to size 12.0pt on input line 142.
 
 Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
 
@@ -580,15 +587,15 @@ Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 135.
+(Font)              scaled to size 12.0pt on input line 142.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 135.
+(Font)              `operators' in the math version `normal' on input line 142.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/ztmcm/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 135.
+(Font)                  OT1/ztmcm/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 142.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 135.
+(Font)              `operators' in the math version `bold' on input line 142.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/ztmcm/m/n --> TU/latinmodern-math.otf(1)/b/n on input line 135.
+(Font)                  OT1/ztmcm/m/n --> TU/latinmodern-math.otf(1)/b/n on input line 142.
 
 Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
 
@@ -667,13 +674,13 @@ Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
 (fontspec)             \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 135.
+(Font)              `symbols' in the math version `normal' on input line 142.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/ztmcm/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 135.
+(Font)                  OMS/ztmcm/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 142.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 135.
+(Font)              `symbols' in the math version `bold' on input line 142.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/ztmcm/m/n --> TU/latinmodern-math.otf(2)/b/n on input line 135.
+(Font)                  OMS/ztmcm/m/n --> TU/latinmodern-math.otf(2)/b/n on input line 142.
 
 Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
 
@@ -734,13 +741,13 @@ Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
 (fontspec)             =7.2pt\relax \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 135.
+(Font)              `largesymbols' in the math version `normal' on input line 142.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/ztmcm/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 135.
+(Font)                  OMX/ztmcm/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 142.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 135.
+(Font)              `largesymbols' in the math version `bold' on input line 142.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/ztmcm/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 135.
+(Font)                  OMX/ztmcm/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 142.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -775,76 +782,76 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 135.
+Package hyperref Info: Link coloring ON on input line 142.
 (./ec981rbasics.out) (./ec981rbasics.out)
 \@outlinefile=\write4
 \openout4 = `ec981rbasics.out'.
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 137.
+(Font)              scaled to size 14.4pt on input line 144.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 137.
+(Font)              scaled to size 10.95pt on input line 144.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 137.
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 137.
+(Font)              scaled to size 8.0pt on input line 144.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 144.
 (c:/Users/sw22905/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 14.4013pt on input line 137.
+(Font)              scaled to size 14.4013pt on input line 144.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.95099pt on input line 137.
+(Font)              scaled to size 10.95099pt on input line 144.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00073pt on input line 137.
+(Font)              scaled to size 8.00073pt on input line 144.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 137.
+(Font)              scaled to size 14.39845pt on input line 144.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 137.
+(Font)              scaled to size 10.94882pt on input line 144.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 137.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 137.
+(Font)              scaled to size 7.99915pt on input line 144.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 144.
 (c:/Users/sw22905/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 144.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 144.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 144.
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 150.
+(Font)              using `TU/ptm/m/n' instead on input line 157.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 152.
+(Font)              using `TU/ptm/m/n' instead on input line 159.
 
 [1
 
 ]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.4pt on input line 193.
+(Font)              scaled to size 8.4pt on input line 200.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 193.
+(Font)              scaled to size 6.0pt on input line 200.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.0011pt on input line 193.
+(Font)              scaled to size 12.0011pt on input line 200.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.40076pt on input line 193.
+(Font)              scaled to size 8.40076pt on input line 200.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 193.
+(Font)              scaled to size 6.00055pt on input line 200.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 193.
+(Font)              scaled to size 11.99872pt on input line 200.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.3991pt on input line 193.
+(Font)              scaled to size 8.3991pt on input line 200.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 193.
+(Font)              scaled to size 5.99936pt on input line 200.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 200.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 200.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 200.
 File: M:/EC452/EC452 Lab/lab1figure/installrstudio.png Graphic file (type bmp)
 <M:/EC452/EC452 Lab/lab1figure/installrstudio.png>
 
@@ -905,7 +912,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
-Underfull \hbox (badness 2790) in paragraph at lines 404--407
+Underfull \hbox (badness 2790) in paragraph at lines 411--414
 []\TU/ptm/m/it/12 Object names are case-sensitive (meaning that Dataset_A is different from
  []
 
@@ -943,12 +950,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11]
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 557.
-
-LaTeX Font Warning: Font shape `TU/lmtt/bx/it' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 557.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1017,8 +1018,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19]
-File: ec981rbasics_files/figure-latex/unnamed-chunk-17-1.pdf Graphic file (type pdf)
-<use ec981rbasics_files/figure-latex/unnamed-chunk-17-1.pdf>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1042,7 +1041,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22] (./ec981rbasics.aux)
+[22]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23]
+File: ec981rbasics_files/figure-latex/unnamed-chunk-24-1.pdf Graphic file (type pdf)
+<use ec981rbasics_files/figure-latex/unnamed-chunk-24-1.pdf>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26] (./ec981rbasics.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -1050,16 +1083,19 @@ L3 programming layer <2023-06-30>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `ec981rbasics.out' has not changed.
-(rerunfilecheck)             Checksum: 1CD0800FF9B8733F801C4D69B00A985B;6997.
+(rerunfilecheck)             Checksum: 458F9C774687D6C299E1403DE7A1257D;7741.
  ) 
 Here is how much of TeX's memory you used:
- 18731 strings out of 477888
- 342486 string characters out of 5821660
- 1922869 words of memory out of 5000000
+ 18727 strings out of 477888
+ 342463 string characters out of 5821660
+ 1923869 words of memory out of 5000000
  39384 multiletter control sequences out of 15000+600000
- 571936 words of font info for 99 fonts, out of 8000000 for 9000
+ 571920 words of font info for 97 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 90i,12n,120p,517b,474s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,120p,517b,476s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ec981rbasics.pdf (22 pages).
+Output written on ec981rbasics.pdf (26 pages).

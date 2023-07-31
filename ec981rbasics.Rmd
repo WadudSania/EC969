@@ -1,5 +1,6 @@
 ---
 title: "EC981: Dissertation"
+subtitle: "Basics and Data Analysis in R"
 author: "Dr Sania Wadud"
 date: "Session 2022-2023"
 output: 
@@ -319,18 +320,25 @@ To import the data from an excel file, use the command $read\_excel()$.
 
 ```{r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE, linewidth=55}
 
-# you can use package wooldridge to get data as well. 
 datadf <- read_excel("M:/EC969/R/EC969/wages.xlsx",sheet = "WAGE2") 
 
-#install.packages('AER')
-## install devtools and then 
-devtools::install_git("https://github.com/ccolonescu/PoEdata") 
+# you can use package wooldridge to get data as well using install.packages("wooldridge")
+library(wooldridge)
+data('wage2')
 
-## install.packages(POEdata)
+# install.packages('AER')
 library(AER)
 data(Fatalities)
+
+#  install.packages("devtools") if not already installed
+ 
+library(devtools)
+devtools::install_git("https://github.com/ccolonescu/PoEdata") 
+
+# install.packages(POEdata)
 library(PoEdata)
 data(food, package='PoEdata')
+
 
 ```
 
@@ -424,7 +432,7 @@ plot(food$income, food$food_exp,
 
 ## Removing variables from your data
 
-Sometimes you might want to remove variables from your dataset. There various ways to do that. For example, to remove the variables $south$ and $urban$ we could use,
+Sometimes you might want to remove variables from your dataset. There is various ways to do that. For example, to remove the variables $south$ and $urban$ we could use,
 
 1.  **Delete column by name**
 
@@ -464,7 +472,166 @@ Also, if a variable already exists and you want to redefine its content, you can
 
 If you want to delete a object you have created, you can use the function $rm()$. For removing all the object use-$rm(list=ls())$.
 
+# Installing and loading some new packages
+
+``` {r, echo = TRUE,cache=TRUE, eval = TRUE, warning=FALSE, message=FALSE }
+#install.packages(c("sandwich","lmtest"))
+library(sandwich)
+library(lmtest)
+```
+
 # Estimating a Linear Regression
+
+ 1. Let's think about estimating the model
+ 
+ $$\log(wage) = \beta_0+\beta_1\,age+\beta_2\,exper+\beta_3\,tenure+\beta_4\,educ+u$$
+
+where $u$ is a random disturbance that is assumed to satisfy the classical assumptions.
+
+2. In order to do this we need the dependent variable by taking the (natural) logarithm of $wage$. Lets name the new variable $lwage$. (Note that in econometrics we only use natural logs so $\log$ and $\ln$ are generally synonymous).
+
+``` {r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
+
+# to create new variable
+lwage <- log(datadf$wage) 
+
+```
+
+3. You are now ready to estimate your (first?) regression with R. To do it, just use the following command
+
+``` {r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
+
+# Running linear regression
+reg <- lm(lwage ~ age + exper + tenure + educ,datadf)
+
+# summary results from linear regression
+summary(reg)
+
+```
+
+4. To get a nice output of regression results, you can use the function `stargazer` as follows
+
+``` {r, echo = TRUE, eval = FALSE, warning=FALSE, message=FALSE }
+
+# Using fancy table style 
+stargazer::stargazer(reg, type = 'latex') 
+
+```
+
+\begin{table}[!htbp] \centering 
+  \caption{} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-2} 
+\\[-1.8ex] & lwage \\ 
+\hline \\[-1.8ex] 
+ age & 0.009$^{*}$ \\ 
+  & (0.005) \\ 
+  & \\ 
+ exper & 0.012$^{***}$ \\ 
+  & (0.004) \\ 
+  & \\ 
+ tenure & 0.013$^{***}$ \\ 
+  & (0.003) \\ 
+  & \\ 
+ educ & 0.072$^{***}$ \\ 
+  & (0.007) \\ 
+  & \\ 
+ Constant & 5.296$^{***}$ \\ 
+  & (0.158) \\ 
+  & \\ 
+\hline \\[-1.8ex] 
+Observations & 935 \\ 
+R$^{2}$ & 0.158 \\ 
+Adjusted R$^{2}$ & 0.154 \\ 
+Residual Std. Error & 0.387 (df = 930) \\ 
+F Statistic & 43.621$^{***}$ (df = 4; 930) \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+
+5. Notice that by default R includes a constant in the model. If you do not want the constant you have to indicate it, by deducting 1, i.e. $-1$ or adding $0$ in following the regression command
+
+``` {r, echo = TRUE, eval = FALSE, warning=FALSE, message=FALSE }
+
+# with no intercept
+regnointer <- lm(lwage ~ age + exper + tenure + educ - 1,datadf) 
+
+regnointer <- lm(lwage ~ age + exper + tenure + educ + 0,datadf)
+
+stargazer::stargazer(regnointer, type = 'latex') 
+
+```
+
+\begin{table}[!htbp] \centering 
+  \caption{} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-2} 
+\\[-1.8ex] & lwage \\ 
+\hline \\[-1.8ex] 
+ age & 0.127$^{***}$ \\ 
+  & (0.005) \\ 
+  & \\ 
+ exper & 0.016$^{***}$ \\ 
+  & (0.006) \\ 
+  & \\ 
+ tenure & 0.003 \\ 
+  & (0.004) \\ 
+  & \\ 
+ educ & 0.172$^{***}$ \\ 
+  & (0.009) \\ 
+  & \\ 
+\hline \\[-1.8ex] 
+Observations & 935 \\ 
+R$^{2}$ & 0.993 \\ 
+Adjusted R$^{2}$ & 0.993 \\ 
+Residual Std. Error & 0.575 (df = 931) \\ 
+F Statistic & 32,356.240$^{***}$ (df = 4; 931) \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular} 
+\end{table}
+
+It is, however, usually a good idea to include an intercept/constant in your regression.
+
+6. After estimating the model, there are lots of things you can do. For example:
+
+  (a) You can save the residuals and the fitted values. 
+  
+``` {r, echo = TRUE, eval = FALSE, warning=FALSE, message=FALSE }
+
+# to save residuals
+reg.res<- reg$residuals 
+
+# to save fitted values
+reg.fit<- reg$fitted.values
+
+
+``` 
+  
+  (b) When you do a regression, R saves lots of results. You can see them with the command
+
+``` {r, echo = TRUE, eval = FALSE, warning=FALSE, message=FALSE }
+
+# to view standard residual error
+sigma(reg)
+
+# to view coefficients
+reg$coefficients
+
+```
+
+## Using POE dataset for linear regression
 
 $$food\_exp = \beta_1\,+\beta_2\,income + u$$
 
@@ -524,6 +691,7 @@ F Statistic & 23.789$^{***}$ (df = 1; 38) \\
 \end{tabular} 
 \end{table}
 ```
+
 ## Plotting with coefficients
 
 ```{r, echo = TRUE, eval = TRUE, warning=FALSE, message=FALSE }
@@ -572,3 +740,13 @@ varb2 <- vcov(mod1)[2, 2]; varb2
 covb1b2 <- vcov(mod1)[1,2]; covb1b2
 
 ```
+
+When you are done, you can save the script and exit the R studio. It will ask whether you want to save .Rdata file. Click 'yes'.
+
+Finally, you can find lots of information about R on the internet. Using R for econometric, you can use find information at https://www.econometrics-with-r.org/.
+
+# Some more links for R learning:
+
+Please follow the link the below for introduction to R, graphics and data visualisation, R Markdown, Version Control & Reproducible Research, Statistical Analysis, Data Manipulation, Shiny and Fun Stuff 
+
+https://ourcodingclub.github.io/links.html
